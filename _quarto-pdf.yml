@@ -1,0 +1,76 @@
+# Learn more at <https://github.com/quarto-journals/elsevier>.
+
+project:
+  output-dir: _print
+  render: [index.qmd]
+  pre-render: "R/quarto-pre-render-pdf.R"
+  post-render: "R/quarto-post-render-pdf.R"
+
+filters:
+  - latex-environment
+commands: legend
+
+title: Short Paper
+subtitle: A Short Subtitle
+author:
+  - name: Arthur Ramalho Magalhães
+    email: arthurama.magalhaes@gmail.com
+    affiliations:
+        - id: inst-1
+          name: Federal Rural University of Pernambuco (UFRPE)
+          department: Departent of Biology
+          address: Rua Dom Manoel de Medeiros, s/n - Dois Irmãos
+          city: Recife
+          state: Pernambuco
+          postal-code: 52171-900
+    attributes:
+        corresponding: true
+    note: This is the first author footnote.
+  - name: Daniel Vartanian
+    email: danvartan@gmail.com
+    affiliations:
+        - id: inst-2
+          name: University of São Paulo (USP)
+          department: Department of Nutrition
+          address: Av. Dr. Arnaldo, 715 - Cerqueira César
+          city: São Paulo
+          state: São Paulo
+          postal-code: 01246-904
+  - name: Aline Martins de Carvalho
+    email: alinenutri@usp.br
+    affiliations:
+        - id: inst-3
+          name: University of São Paulo (USP)
+          department: School of Arts, Sciences and Humanities (EACH)
+          address: Rua Arlindo Béttio, 1000 - Ermelino Matarazzo
+          city: São Paulo
+          state: São Paulo
+          postal-code: 03828-000
+abstract: |
+  This is the abstract. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  Vestibulum augue turpis, dictum non malesuada a, volutpat eget velit.
+  Nam placerat turpis purus, eu tristique ex tincidunt et. Mauris sed augue
+  eget turpis ultrices tincidunt. Sed et mi in leo porta egestas. Aliquam non
+  laoreet velit. Nunc quis ex vitae eros aliquet auctor nec ac libero. Duis
+  laoreet sapien eu mi luctus, in bibendum leo molestie. Sed hendrerit diam
+  diam, ac dapibus nisl volutpat vitae. Aliquam bibendum varius libero, eu
+  efficitur justo rutrum at. Sed at tempus elit.
+keywords:
+  - Global syndemic
+  - Climate change
+date: last-modified
+
+format:
+  elsevier-pdf:
+    name: Journal Name
+    keep-tex: true
+    formatting: preprint
+    model: 3p
+    layout: onecolumn
+    cite-method: citeproc
+    cls: csl/elsevier-harvard.csl
+    # graphical-abstract: "![](abstract.png)"
+    highlights:
+      - Highlight 1
+      - Highlight 2
+      - Highlight 3

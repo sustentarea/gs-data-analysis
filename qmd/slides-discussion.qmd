@@ -1,0 +1,4 @@
+<!-- %:::% slides-discussion begin %:::% -->
+## Discussion {.smaller}
+
+<!-- %:::% slides-discussion end %:::% -->

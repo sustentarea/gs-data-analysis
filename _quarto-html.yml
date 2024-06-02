@@ -1,0 +1,45 @@
+project:
+  type: book
+  output-dir: _web
+  pre-render: "R/quarto-pre-render-html.R"
+  post-render: "R/quarto-post-render-html.R"
+
+book:
+  date: today
+  date-format: "YYYY-MM-DD"
+  repo-actions: [edit, issue]
+  chapters:
+    - index.qmd
+    - qmd/book-introduction.qmd
+    - qmd/book-methods.qmd
+    - part: "Exploratory data analyses"
+      chapters:
+        - qmd/book-report-1.qmd
+        - qmd/book-report-2.qmd
+        - qmd/book-report-3.qmd
+    - part: "Paper"
+      chapters:
+        - qmd/book-manuscript.qmd
+        - qmd/book-supp-materials.qmd
+    - qmd/book-discussion.qmd
+    - qmd/book-acknowledgments.qmd
+    - qmd/book-references.qmd
+    - qmd/book-glossary.qmd
+  appendices:
+    - qmd/book-appendice-report-1.qmd
+    - qmd/book-appendice-report-2.qmd
+    - qmd/book-appendice-report-3.qmd
+
+format:
+  html:
+    date-format: "YYYY-MM-DD"
+    open-graph: true
+    locale: en
+    number-depth: 5
+    code-link: true
+    code-fold: true
+    cap-location: top
+    reader-mode: false
+    callout-appearance: simple
+    csl: csl/english-apa-author-date.csl
+    theme: [cosmo, scss/web-theme-light.scss]

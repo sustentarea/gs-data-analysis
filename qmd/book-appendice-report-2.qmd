@@ -1,0 +1,18 @@
+# Report 2 supplemental material
+
+```{r}
+#| label: setup
+#| include: false
+
+source(here::here("R/quarto-setup.R"))
+```
+
+```{r}
+#| echo: false
+#| output: asis
+
+rutils:::quarto_status(
+  type = "drafting",
+  of_what = "of this report"
+  )
+```

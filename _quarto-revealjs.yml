@@ -1,0 +1,22 @@
+project:
+  type: website
+  output-dir: _slides
+  render: [index.qmd]
+  pre-render: "R/quarto-pre-render-revealjs.R"
+  post-render: "R/quarto-post-render-revealjs.R"
+
+title: "Exploratory data analysis for Sustentarea's Global Syndemic project"
+author: "Arthur R. Magalhães, Daniel Vartanian and Aline M. de Carvalho"
+institute: "Sustentarea"
+date: today
+
+format:
+  revealjs:
+    lang: en
+    keyboard: true
+    controls: true
+    controls-layout: bottom-right
+    preview-links: auto
+    chalkboard: true
+    csl: csl/english-apa-author-date.csl
+    theme: [default, scss/slides.scss]

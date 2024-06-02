@@ -1,0 +1,180 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Exploratory data analysis for Sustentarea’s Global Syndemic project",
+    "section": "",
+    "text": "Welcome\nThis book is related to the exploratory data analysis made for Sustentarea’s Global Syndemic Project.\nAll analyses in this document are reproducible and were conducted using the R programming language along with the Quarto publishing system. Click here or on the GitHub icon in the menu to access the research compendium for the thesis.",
+    "crumbs": [
+      "Welcome"
+    ]
+  },
+  {
+    "objectID": "index.html#citation",
+    "href": "index.html#citation",
+    "title": "Exploratory data analysis for Sustentarea’s Global Syndemic project",
+    "section": "Citation",
+    "text": "Citation\nFor attribution, please cite this work as:\nMagalhães, A. R., Vartanian, D., & Carvalho, A. M. (2024). Exploratory data analysis for Sustentarea’s Global Syndemic project . https://sustentarea.github.io/gs-data-analysis/\nBibTeX citation:\n@techreport{carvalho2024,\n  title = {Exploratory data analysis for Sustentarea's Global Syndemic project},\n  author = {Arthur Ramalho Magalhães, Daniel Vartanian and Aline Martins de Carvalho},\n  year = {2024},\n  institution = {},\n  langid = {en-us},\n  url = {https://sustentarea.github.io/gs-data-analysis/}\n}",
+    "crumbs": [
+      "Welcome"
+    ]
+  },
+  {
+    "objectID": "qmd/book-introduction.html#secondary-section",
+    "href": "qmd/book-introduction.html#secondary-section",
+    "title": "\n1  Introduction\n",
+    "section": "\n1.1 Secondary section",
+    "text": "1.1 Secondary section\nSee Table 1.1.\ndatasets::iris |&gt;\n  dplyr::as_tibble() |&gt;\n  dplyr::slice_sample(n = 5) |&gt;\n  gt::gt()\n\n\nTable 1.1: A sample of the famous (Fisher’s or Anderson’s) iris data set\n\n\n\n\n\n\n\nSepal.Length\nSepal.Width\nPetal.Length\nPetal.Width\nSpecies\n\n\n\n6.7\n3.1\n4.4\n1.4\nversicolor\n\n\n5.5\n3.5\n1.3\n0.2\nsetosa\n\n\n5.1\n3.8\n1.9\n0.4\nsetosa\n\n\n6.7\n3.3\n5.7\n2.5\nvirginica\n\n\n6.7\n2.5\n5.8\n1.8\nvirginica\n\n\n\n\n\n\nSource: Fisher (1936).\n\n\n\n\n1.1.1 Tertiary section\n\n\nSee Figure 1.2.\nggplot2::ggplot(\n  data = datasets::faithful, \n  mapping = ggplot2::aes(x = eruptions, y = waiting)\n  ) +\n  ggplot2::geom_point() +\n  ggplot2::xlim(0.5, 6) +\n  ggplot2::ylim(40, 110) +\n  ggplot2::geom_density_2d_filled(alpha = 0.5) +\n  ggplot2::geom_density_2d(linewidth = 0.25, colour = \"black\") +\n  ggplot2::theme(legend.position = \"none\")\n\n\nFigure 1.2: Relationship between waiting time to next eruption (minutes) and eruption time (minutes) at Old Faithful Geyser, Yellowstone National Park, Wyoming, USA\n\n\n\n\n\n\nSource: Retrieved from the ggplot2 R package documentation (Wickham, 2016).\n\n\n\n\n1.1.1.1 Quaternary section\n\nBullet point\n\nBullet point\n\nBullet point\n\n\n\n\n\n\n1.1.1.1.1 Quinary section\n\nList\nList\nList",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "qmd/book-introduction.html#another-secondary-section",
+    "href": "qmd/book-introduction.html#another-secondary-section",
+    "title": "\n1  Introduction\n",
+    "section": "\n1.2 Another secondary section",
+    "text": "1.2 Another secondary section\nSee Figure 1.3.\np &lt;- ggplot2::ggplot(\n  data = datasets::mtcars, \n  mapping = ggplot2::aes(x=wt, y=mpg, color=cyl, size=cyl)\n  ) +\n  ggplot2::geom_point() +\n  ggplot2::theme(legend.position=\"none\")\n\nggExtra::ggMarginal(\n  p = p, \n  type = \"histogram\", \n  fill = \"slateblue\", \n  xparams = list(bins=10)\n)\n\n\nFigure 1.3: Relation between weight (1000lbs) (\\(\\text{wt}\\)) and miles per galon (\\(\\text{mpg}\\)) for combustion engine vehicles\n\n\n\n\n\n\nSource: Data extracted from the 1974 Motor Trend magazine and published by Henderson & Velleman (1981). Visualization by Holtz (n.d.), available at The R Graph Gallery.\n\n\n\n\n\n\n\nFisher, R. A. (1936). The use of multiple measurements in taxonomic problems. Annals of Eugenics, 7(2), 179–188. https://doi.org/10.1111/j.1469-1809.1936.tb02137.x\n\n\nHenderson, H. V., & Velleman, P. F. (1981). Building multiple regression models interactively. Biometrics, 37(2), 391–411. https://doi.org/10.2307/2530428\n\n\nHoltz, Y. (n.d.). Marginal distribution with ggplot2 and ggExtra. Retrieved November 6, 2023, from https://www.r-graph-gallery.com/277-marginal-histogram-for-ggplot2.html\n\n\nPopper, K. R. (1979). Objective knowledge: An evolutionary approach. Oxford University Press.\n\n\nWickham, H. (2016). ggplot2: Elegant graphics for data analysis (2nd ed.). Springer International Publishing. https://doi.org/10.1007/978-3-319-24277-4",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "qmd/book-methods.html",
+    "href": "qmd/book-methods.html",
+    "title": "\n2  Methods\n",
+    "section": "",
+    "text": "You are reading the work-in-progress of this report. This chapter is currently a dumping ground for ideas, and I don’t recommend reading it.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Methods</span>"
+    ]
+  },
+  {
+    "objectID": "qmd/book-report-1.html#exercise-with-sivan-data",
+    "href": "qmd/book-report-1.html#exercise-with-sivan-data",
+    "title": "\n3  Report 1\n",
+    "section": "\n3.1 Exercise with SIVAN data",
+    "text": "3.1 Exercise with SIVAN data\n\n\n\n\n\n\nSee chapter 22 from the book R for Data Science by Hadley Wickham and Garrett Grolemund. https://r4ds.hadley.nz/arrow.\n\n\n\n\n\n\n\n\n\nCode evalution was disabled for the code chunks below.\n\n\n\n\n3.1.1 Dowloading and unzipping the data\n\n\n\n\n\n\nSee:\n\nhttps://opendatasus.saude.gov.br/dataset/sisvan-estado-nutricional\nhttps://apidadosabertos.saude.gov.br/v1/#/SISVAN/get_sisvan_estado_nutricional\n\n\n\n\n\n# library(arrow, quietly = TRUE)\n# library(curl, quietly = TRUE)\n# library(dplyr, quietly = TRUE)\n# library(utils, quietly = TRUE)\n\n\ndir_path &lt;- here::here(\".data/sisvan_estado-nutricional-2023/csv\")\nif (!dir.exists(dir_path)) dir.create(dir_path, showWarnings = FALSE)\n\nurl &lt;- paste0(\n  \"https://s3.sa-east-1.amazonaws.com/ckan.saude.gov.br/\",\n  \"SISVAN/estado_nutricional/sisvan_estado_nutricional_2023.zip\"\n)\ndestfile &lt;- here::here(dir_path, \"sisvan_estado_nutricional_2023.zip\")\n\ncurl::multi_download(urls = url, destfiles = destfile, resume = TRUE)\n\nfile &lt;- utils::unzip(zipfile = destfile, extdir = dir_path)\n\n\n3.1.2 Creating a schema for the data\n\nschema &lt;- arrow::schema(\n  CO_ACOMPANHAMENTO = arrow::string(),\n  CO_PESSOA_SISVAN = arrow::string(),\n  ST_PARTICIPA_ANDI = arrow::string(),\n  CO_MUNICIPIO_IBGE = arrow::string(), # arrow::int64()\n  SG_UF = arrow::string(),\n  NO_MUNICIPIO = arrow::string(),\n  CO_CNES = arrow::string(), # arrow::int64()\n  NU_IDADE_ANO = arrow::int64(),\n  NU_FASE_VIDA = arrow::float(),\n  DS_FASE_VIDA = arrow::string(),\n  SG_SEXO = arrow::string(),\n  CO_RACA_COR = arrow::int64(),\n  DS_RACA_COR = arrow::string(),\n  CO_POVO_COMUNIDADE = arrow::int64(),\n  DS_POVO_COMUNIDADE = arrow::binary(),\n  CO_ESCOLARIDADE = arrow::int64(),\n  DS_ESCOLARIDADE = arrow::binary(),\n  DT_ACOMPANHAMENTO = arrow::string(),\n  NU_COMPETENCIA = arrow::int64(),\n  NU_PESO = arrow::string(),\n  NU_ALTURA = arrow::string(),\n  DS_IMC = arrow::string(),\n  DS_IMC_PRE_GESTACIONAL = arrow::float(),\n  \"PESO X IDADE\" = arrow::string(),\n  \"PESO X ALTURA\" = arrow::string(),\n  \"CRI. ALTURA X IDADE\" = arrow::string(),\n  \"CRI. IMC X IDADE\" = arrow::string(),\n  \"ADO. ALTURA X IDADE\" = arrow::string(),\n  \"ADO. IMC X IDADE\" = arrow::string(),\n  CO_ESTADO_NUTRI_ADULTO = arrow::binary(),\n  CO_ESTADO_NUTRI_IDOSO = arrow::binary(),\n  CO_ESTADO_NUTRI_IMC_SEMGEST = arrow::binary(),\n  CO_SISTEMA_ORIGEM_ACOMP = arrow::int64(),\n  SISTEMA_ORIGEM_ACOMP = arrow::string()\n)\n\n# arrow::schema(arrow_data)\n\n\n3.1.3 Creating an arrow dataset based on the CSV file\n\narrow_data &lt;-\n  file |&gt;\n  arrow::open_delim_dataset(\n    schema = NULL,\n    partitioning = arrow::hive_partition(),\n    hive_style = NA,\n    unify_schemas = NULL,\n    factory_options = list(),\n    delim = \";\",\n    quote = \"\\\"\",\n    escape_double = TRUE,\n    escape_backslash = FALSE,\n    col_names = TRUE,\n    col_types = schema,\n    na = c(\"\", \"NA\"),\n    skip_empty_rows = TRUE,\n    skip = 0L,\n    convert_options = NULL,\n    read_options = NULL,\n    timestamp_parsers = NULL,\n    quoted_na = TRUE,\n    parse_options = NULL\n  )\n\n\n3.1.4 Transforming the data to parquet\n\ndir_path &lt;- here::here(\".data/sisvan_estado-nutricional-2023/parquet\")\nif (!dir.exists(dir_path)) dir.create(dir_path, showWarnings = FALSE)\n\n# Adjust the parameters below according to your machine's capacity.\narrow_data |&gt;\n  dplyr::group_by(SG_UF) |&gt;\n  arrow::write_dataset(\n    path = dir_path,\n    format = \"parquet\",\n    max_partitions = 2000,\n    max_open_files = 100,\n    max_rows_per_file = 100000\n  )\n\ndplyr::tibble(\n  files = list.files(dir_path, recursive = TRUE),\n  size_MB = file.size(file.path(dir_path, files)) / 1024^2\n)\n\n\n3.1.5 Creating an arrow dataset based on the parquet files\n\ndir_path &lt;- here::here(\".data/sisvan_estado-nutricional-2023/parquet\")\nif (!dir.exists(dir_path)) dir.create(dir_path, showWarnings = FALSE)\n\narrow_data |&gt;\n  dplyr::group_by(SG_UF) |&gt;\n  arrow::write_dataset(\n    path = dir_path,\n    format = \"parquet\",\n    max_partitions = 2000,\n    max_open_files = 100,\n    max_rows_per_file = 100000\n  )\n\ndplyr::tibble(\n  files = list.files(dir_path, recursive = TRUE),\n  size_MB = file.size(file.path(dir_path, files)) / 1024^2\n)\n\n\narrow_data &lt;- arrow::open_dataset(dir_path)\n\n\n3.1.6 Example of data processing with an arrow dataset\n\n# library(geobr, quietly = TRUE)\n# library(sidrar, quietly = TRUE)\n# library(rutils, quietly = TRUE)\n# library(viridis, quietly = TRUE)\n\nsource(here::here(\"R\", \"utils.R\"))\n\n\ndata &lt;-\n  arrow_data |&gt;\n  # dplyr::filter(SG_UF == \"AC\") |&gt;\n  dplyr::select(SG_UF, `PESO X IDADE`, `PESO X ALTURA`) |&gt;\n  dplyr::group_by(SG_UF, `PESO X IDADE`) |&gt;\n  dplyr::summarise(n = dplyr::n()) |&gt;\n  dplyr::collect()\n\ndata |&gt; dplyr::glimpse()\n\n\ndata &lt;-\n  data %&gt;%\n  rutils:::change_name(tidy_names(names(.), tag_duplicates = TRUE)) |&gt;\n  dplyr::filter(peso_x_idade == \"Muito baixo peso para a idade\") |&gt;\n  dplyr::rename(state = sg_uf)\n\n\n\n\n\n\n\nSee:\n\nhttps://apisidra.ibge.gov.br/\nhttps://sidra.ibge.gov.br/tabela/7358\n\n\n\n\n\nsidra_data &lt;-\n  sidrar::get_sidra(\n    api = \"/t/7358/n1/all/n3/all/v/all/p/all/c2/6794/c287/100362/c1933/49039\"\n  )\n\nsidra_data &lt;-\n  sidra_data %&gt;%\n  rutils:::change_name(tidy_names(names(.), tag_duplicates = FALSE)) |&gt;\n  dplyr::as_tibble() |&gt;\n  dplyr::rename(\n    state = brasil_e_unidade_da_federacao,\n    population = valor,\n    year = ano_dup_2,\n  ) |&gt;\n  dplyr::filter(nivel_territorial == \"Unidade da Federação\") |&gt;\n  dplyr::select(state, population, year) |&gt;\n  dplyr::mutate(state = rename_br_state_to_uf(state))\n\n\ndata &lt;-\n  data |&gt;\n  dplyr::left_join(sidra_data, by = \"state\") |&gt;\n  dplyr::mutate(\n    n_rel = n / population,\n    n_per = n_rel * 100\n  ) |&gt;\n  dplyr::arrange(dplyr::desc(n_per))\n\n\nbrazil_uf_map &lt;-\n  geobr::read_state(year = 2020, showProgress = FALSE) |&gt;\n  rutils:::shush() |&gt;\n  dplyr::rename(state = abbrev_state) |&gt;\n  dplyr::select(state, geom)\n\ndata &lt;-\n  data |&gt;\n  dplyr::left_join(brazil_uf_map, by = \"state\")\n\n\ndata |&gt;\n  dplyr::mutate(n = n_per) |&gt;\n  dplyr::select(state, n, geom) |&gt;\n  ggplot2::ggplot() +\n  ggplot2::geom_sf(ggplot2::aes(geometry = geom, fill = n)) +\n  ggplot2::labs(\n    title = \"SISVAN 2023\",\n    subtitle = paste0(\n      \"Porcentagem de crianças com 'muito baixo peso para a idade' \",\n      \"em relação à\\npopulação total da UF. \"\n    ),\n    x = \"Longitude\",\n    y = \"Latitude\",\n    fill = \"%\"\n  ) +\n  viridis::scale_fill_viridis(option = \"inferno\")\n\n\n3.1.7 Getting samples of the data with readr\n\n\n# library(readr, quietly = TRUE)\n\nsource(here::here(\"R\", \"read_demas_sisvan.R\"))\n\n\ndata &lt;-\n  file |&gt;\n  read_demas_sisvan(\n    skip = 0,\n    n_max = 1000,\n    lazy = FALSE,\n    show_progress = TRUE\n  )\n\ndata |&gt; dplyr::glimpse()\n\n\ndata &lt;-\n  file |&gt;\n  read_and_filter(\n    fns = read_demas_sisvan,\n    filter_statement = \"SG_UF == 'SP'\",\n    batch_n = 10000,\n    batch_max = 50,\n    has_header = TRUE\n  )\n\ndata |&gt; dplyr::glimpse()",
+    "crumbs": [
+      "Exploratory data analyses",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Report 1</span>"
+    ]
+  },
+  {
+    "objectID": "qmd/book-report-2.html",
+    "href": "qmd/book-report-2.html",
+    "title": "\n4  Report 2\n",
+    "section": "",
+    "text": "You are reading the work-in-progress of this report. This chapter is currently a dumping ground for ideas, and I don’t recommend reading it.",
+    "crumbs": [
+      "Exploratory data analyses",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Report 2</span>"
+    ]
+  },
+  {
+    "objectID": "qmd/book-report-3.html",
+    "href": "qmd/book-report-3.html",
+    "title": "\n5  Report 3\n",
+    "section": "",
+    "text": "You are reading the work-in-progress of this report. This chapter is currently a dumping ground for ideas, and I don’t recommend reading it.",
+    "crumbs": [
+      "Exploratory data analyses",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Report 3</span>"
+    ]
+  },
+  {
+    "objectID": "qmd/book-manuscript.html",
+    "href": "qmd/book-manuscript.html",
+    "title": "\n6  Manuscript\n",
+    "section": "",
+    "text": "You are reading the work-in-progress of this report. This chapter is currently a dumping ground for ideas, and I don’t recommend reading it.\n\n\n\n\n\n\n\n\n\nTarget journal\n\n\n\n\n\nScientific Reports (IF 2022: 4.6/JCR | A1/2017-2020).\n\n\n\n\n\n\n\n\n\nThe following study was performed by Arthur Ramalho Magalhães (AM) Daniel Vartanian (DV), and Aline Martins de Carvalho (AC).\nAC contributed to the design and implementation of the study. DV and MP collected the data and performed the statistical analysis. AM wrote the manuscript. All authors discussed the results and revised the final manuscript.\nFuture reference: Magalhães, A. R., Vartanian, D., & Carvalho, A. M. (2024). A Some title. Scientific Reports.",
+    "crumbs": [
+      "Paper",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Manuscript</span>"
+    ]
+  },
+  {
+    "objectID": "qmd/book-supp-materials.html",
+    "href": "qmd/book-supp-materials.html",
+    "title": "\n7  Supplemental materials\n",
+    "section": "",
+    "text": "You are reading the work-in-progress of this report. This chapter is currently a dumping ground for ideas, and I don’t recommend reading it.",
+    "crumbs": [
+      "Paper",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Supplemental materials</span>"
+    ]
+  },
+  {
+    "objectID": "qmd/book-discussion.html",
+    "href": "qmd/book-discussion.html",
+    "title": "\n8  Discussion and conclusions\n",
+    "section": "",
+    "text": "You are reading the work-in-progress of this report. This chapter is currently a dumping ground for ideas, and I don’t recommend reading it.",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Discussion and conclusions</span>"
+    ]
+  },
+  {
+    "objectID": "qmd/book-acknowledgments.html",
+    "href": "qmd/book-acknowledgments.html",
+    "title": "Acknowledgments",
+    "section": "",
+    "text": "You are reading the work-in-progress of this report. This chapter is currently a dumping ground for ideas, and I don’t recommend reading it.",
+    "crumbs": [
+      "Acknowledgments"
+    ]
+  },
+  {
+    "objectID": "qmd/book-references.html",
+    "href": "qmd/book-references.html",
+    "title": "References",
+    "section": "",
+    "text": "In accordance with the American Psychological Association (APA) Style, 7th edition.\n\n\nFisher, R. A. (1936). The use of multiple measurements in taxonomic\nproblems. Annals of Eugenics, 7(2), 179–188. https://doi.org/10.1111/j.1469-1809.1936.tb02137.x\n\n\nHenderson, H. V., & Velleman, P. F. (1981). Building multiple\nregression models interactively. Biometrics, 37(2),\n391–411. https://doi.org/10.2307/2530428\n\n\nHoltz, Y. (n.d.). Marginal distribution with ggplot2 and ggExtra. Retrieved November 6, 2023, from https://www.r-graph-gallery.com/277-marginal-histogram-for-ggplot2.html\n\n\nMitchell, M. (2013). Introduction to complexity [Online\ncourse]. https://www.complexityexplorer.org/courses/\n\n\nPopper, K. R. (1979). Objective knowledge: An evolutionary\napproach. Oxford University Press.\n\n\nWickham, H. (2016). ggplot2: Elegant graphics for data analysis\n(2nd ed.). Springer International Publishing. https://doi.org/10.1007/978-3-319-24277-4",
+    "crumbs": [
+      "References"
+    ]
+  },
+  {
+    "objectID": "qmd/book-glossary.html",
+    "href": "qmd/book-glossary.html",
+    "title": "Glossary",
+    "section": "",
+    "text": "Complex system\n\nThere are several definitions. Here are some that I found to be of use:\n\n\n\n“Systems that don’t yield to compact forms of representation or description” (David Krakauer apud Mitchell (2013));\n“A system of many interacting parts where the system is more than just the sum of its parts” (Mark Newman apud Mitchell (2013));\nSystems with many connected agents that interact and exhibit self-organization and emergence behavior, all without the need for a central controller (adapted from Camilo Rodrigues Neto’s);\nDialectics at its finest (Daniel’s working definition).\n\n\n\n\n\nMitchell, M. (2013). Introduction to complexity [Online course]. https://www.complexityexplorer.org/courses/",
+    "crumbs": [
+      "Glossary"
+    ]
+  },
+  {
+    "objectID": "qmd/book-appendice-report-1.html",
+    "href": "qmd/book-appendice-report-1.html",
+    "title": "Appendix A — Report 1 supplemental material",
+    "section": "",
+    "text": "You are reading the work-in-progress of this report. This chapter is currently a dumping ground for ideas, and I don’t recommend reading it.",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Report 1 supplemental material</span>"
+    ]
+  },
+  {
+    "objectID": "qmd/book-appendice-report-2.html",
+    "href": "qmd/book-appendice-report-2.html",
+    "title": "Appendix B — Report 2 supplemental material",
+    "section": "",
+    "text": "You are reading the work-in-progress of this report. This chapter is currently a dumping ground for ideas, and I don’t recommend reading it.",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>B</span>  <span class='chapter-title'>Report 2 supplemental material</span>"
+    ]
+  },
+  {
+    "objectID": "qmd/book-appendice-report-3.html",
+    "href": "qmd/book-appendice-report-3.html",
+    "title": "Appendix C — Report 3 supplemental material",
+    "section": "",
+    "text": "You are reading the work-in-progress of this report. This chapter is currently a dumping ground for ideas, and I don’t recommend reading it.",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>C</span>  <span class='chapter-title'>Report 3 supplemental material</span>"
+    ]
+  }
+]

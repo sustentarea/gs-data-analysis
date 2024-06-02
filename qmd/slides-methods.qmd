@@ -1,0 +1,4 @@
+<!-- %:::% slides-methods begin %:::% -->
+## Methods {.smaller}
+
+<!-- %:::% slides-methods end %:::% -->

@@ -1,0 +1,76 @@
+<!-- %:::% index begin %:::% -->
+<!-- %:::% slides-preface begin %:::% -->
+## {visibility="hidden"}
+
+```{r}
+#| label: setup
+#| include: false
+
+source(here::here("R/quarto-setup.R"))
+```
+
+## Hello, there 👋 {.smaller}
+
+This presentation will provide an overview of the  objectives, main concepts, methods, and results. Here is our itinerary.
+
+<!-- 🤔 👀 🌱⏳👩⏳ ☀️ 😪 🌎 ⚙️ 📓 📋 💬 -->
+
+:::: {.columns}
+::: {.column width="47.5%"}
+(@) Object and objectives
+(@) Introduction to the main concepts
+  i) Concept 1
+  i) Concept 2
+  i) Concept 3
+  i) Concept 4
+  i) Concept 5
+:::
+
+::: {.column width="47.5%"}
+(@) Report outline
+(@) Materials and methods
+(@) Main results
+(@) Discussion
+(@) Final remarks
+:::
+::::
+<!-- %:::% slides-preface end %:::% -->
+<!-- %:::% slides-objectives begin %:::% -->
+## Object and objectives {.smaller}
+
+<!-- %:::% slides-objectives end %:::% -->
+<!-- %:::% slides-introduction begin %:::% -->
+## Introduction {.smaller}
+
+<!-- %:::% slides-introduction end %:::% -->
+<!-- %:::% slides-outline begin %:::% -->
+## Outline {.smaller}
+
+<!-- %:::% slides-outline end %:::% -->
+<!-- %:::% slides-methods begin %:::% -->
+## Methods {.smaller}
+
+<!-- %:::% slides-methods end %:::% -->
+<!-- %:::% slides-results begin %:::% -->
+## Results {.smaller}
+
+<!-- %:::% slides-results end %:::% -->
+<!-- %:::% slides-discussion begin %:::% -->
+## Discussion {.smaller}
+
+<!-- %:::% slides-discussion end %:::% -->
+<!-- %:::% slides-final-remarks begin %:::% -->
+## Final remarks {.smaller}
+
+<!-- %:::% slides-final-remarks end %:::% -->
+<!-- %:::% slides-references begin %:::% -->
+## References {.smaller}
+
+::: {style="font-size: 0.75em;"}
+In accordance with the [American Psychological Association (APA) Style](https://apastyle.apa.org/), 7th edition.
+:::
+
+::: {#refs style="font-size: 0.75em;"}
+:::
+<!-- %:::% slides-references end %:::% -->
+<!-- %:::% index end %:::% -->

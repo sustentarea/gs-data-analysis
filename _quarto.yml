@@ -1,0 +1,33 @@
+editor: source
+
+execute:
+  cache: false
+  freeze: auto
+
+profile:
+  group:
+    - [html, revealjs, pdf]
+  default: html
+
+book:
+  title: "Exploratory data analysis for Sustentarea's Global Syndemic project"
+  author: "Arthur Ramalho Magalhães, Daniel Vartanian and Aline Martins de Carvalho"
+  keyword: >
+    Global syndemic. Children's nutrition. Climate change. Global warming.
+    Childrens's health. Brazil. SUS. SISVAN. INMET. IBGE. CONAB. rstats.
+  url: https://sustentarea.github.io/gs-data-analysis/
+  site-url: https://sustentarea.github.io/gs-data-analysis/
+  repo-url: https://github.com/sustentarea/gs-data-analysis
+  issue-url: https://github.com/sustentarea/gs-data-analysis/issues/
+  repo-branch: main
+  publisher: "Sustentarea"
+  publisher-place: "São Paulo, SP, Brazil"
+  language: en-us
+  license: "Creative Commons Attribution 4.0 International (CC BY 4.0)"
+
+citation:
+  type: report
+  url: https://sustentarea.github.io/gs-data-analysis/
+google-scholar: false
+
+bibliography: references.bib
