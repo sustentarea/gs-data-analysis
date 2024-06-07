@@ -5,9 +5,10 @@ author-initials: A. R. M. D. V. A. M. C.
 author: Arthur R. Magalhães, Daniel Vartanian and Aline M. de Carvalho
 url: https://sustentarea.github.io/gs-data-analysis/
 keyword: Global syndemic
-language: en-us
-title: Exploratory data analysis for Sustentarea's Global Syndemic project
-date: '2024-06-02'
+language: en
+title: |
+  Exploratory data analysis for Sustentarea's Global Syndemic project
+date: '2024-06-07'
 year: '2024'
 institute: Sustentarea
-format: pdf
+format: html

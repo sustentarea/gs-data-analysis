@@ -10,13 +10,16 @@ book:
   repo-actions: [edit, issue]
   chapters:
     - index.qmd
-    - qmd/book-introduction.qmd
+    - qmd/book-abstract.qmd
+    - qmd/book-objectives.qmd
     - qmd/book-methods.qmd
+    - qmd/book-activities.qmd
     - part: "Exploratory data analyses"
       chapters:
         - qmd/book-report-1.qmd
         - qmd/book-report-2.qmd
         - qmd/book-report-3.qmd
+        - qmd/book-report-4.qmd
     - part: "Paper"
       chapters:
         - qmd/book-manuscript.qmd
@@ -29,6 +32,7 @@ book:
     - qmd/book-appendice-report-1.qmd
     - qmd/book-appendice-report-2.qmd
     - qmd/book-appendice-report-3.qmd
+    - qmd/book-example-of-use.qmd
 
 format:
   html:
@@ -37,7 +41,7 @@ format:
     locale: en
     number-depth: 5
     code-link: true
-    code-fold: true
+    code-fold: show
     cap-location: top
     reader-mode: false
     callout-appearance: simple

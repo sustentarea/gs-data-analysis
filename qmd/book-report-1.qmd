@@ -1,4 +1,4 @@
-# Report 1
+# SISVAN data
 
 ```{r}
 #| label: setup
@@ -7,11 +7,19 @@
 source(here::here("R/quarto-setup.R"))
 ```
 
-::: {.callout-note}
-The exercise below is just a draft. Use the [`targets`](https://docs.ropensci.org/targets/) package while processing the data.
-:::
+```{r}
+#| echo: false
+#| output: asis
 
-## Exercise with SIVAN data
+rutils:::quarto_status(
+  type = "drafting",
+  of_what = "of this report"
+  )
+```
+
+::: {.callout-note}
+Use the [`targets`](https://docs.ropensci.org/targets/) package while processing the data.
+:::
 
 ::: {.callout-note}
 See chapter 22 from the book _R for Data Science_ by Hadley Wickham and Garrett Grolemund. <https://r4ds.hadley.nz/arrow>.
@@ -21,13 +29,13 @@ See chapter 22 from the book _R for Data Science_ by Hadley Wickham and Garrett 
 Code evalution was disabled for the code chunks below.
 :::
 
-### Dowloading and unzipping the data
+## Dowloading and unzipping the data
 
 ::: {.callout-note}
 See:
 
-* https://opendatasus.saude.gov.br/dataset/sisvan-estado-nutricional
-* https://apidadosabertos.saude.gov.br/v1/#/SISVAN/get_sisvan_estado_nutricional
+* <https://opendatasus.saude.gov.br/dataset/sisvan-estado-nutricional>
+* <https://apidadosabertos.saude.gov.br/v1/#/SISVAN/get_sisvan_estado_nutricional>
 :::
 
 ```{r}
@@ -44,21 +52,27 @@ See:
 #| eval: false
 #| code-fold: false
 
-dir_path <- here::here(".data/sisvan_estado-nutricional-2023/csv")
-if (!dir.exists(dir_path)) dir.create(dir_path, showWarnings = FALSE)
+dir_path <- here::here(".data", "sisvan", "estado-nutricional", "2023", "zip")
+
+if (!dir.exists(dir_path)) {
+  dir.create(dir_path, recursive = TRUE, showWarnings = FALSE)
+}
 
 url <- paste0(
   "https://s3.sa-east-1.amazonaws.com/ckan.saude.gov.br/",
   "SISVAN/estado_nutricional/sisvan_estado_nutricional_2023.zip"
 )
-destfile <- here::here(dir_path, "sisvan_estado_nutricional_2023.zip")
 
-curl::multi_download(urls = url, destfiles = destfile, resume = TRUE)
+dest_file <- here::here(dir_path, "sisvan_estado-nutricional_2023.zip")
+curl::curl_download(url = url, destfile = dest_file)
 
-file <- utils::unzip(zipfile = destfile, extdir = dir_path)
+dir_path <- dir_path |> stringr::str_replace("zip$", "csv")
+if (!dir.exists(dir_path)) dir.create(dir_path, showWarnings = FALSE)
+
+file <- utils::unzip(zipfile = dest_file, exdir = dir_path)
 ```
 
-### Creating a schema for the data
+## Creating a schema for the data
 
 ```{r}
 #| eval: false
@@ -104,7 +118,7 @@ schema <- arrow::schema(
 # arrow::schema(arrow_data)
 ```
 
-### Creating an `arrow` dataset based on the CSV file
+## Creating an `arrow` dataset based on the CSV file
 
 ```{r}
 #| eval: false
@@ -135,13 +149,13 @@ arrow_data <-
   )
 ```
 
-### Transforming the data to parquet
+## Transforming the data to parquet
 
 ```{r}
 #| eval: false
 #| code-fold: false
 
-dir_path <- here::here(".data/sisvan_estado-nutricional-2023/parquet")
+dir_path <- dir_path |> stringr::str_replace("csv$", "parquet")
 if (!dir.exists(dir_path)) dir.create(dir_path, showWarnings = FALSE)
 
 # Adjust the parameters below according to your machine's capacity.
@@ -161,7 +175,7 @@ dplyr::tibble(
 )
 ```
 
-### Creating an `arrow` dataset based on the parquet files
+## Creating an `arrow` dataset based on the parquet files
 
 ```{r}
 #| eval: false
@@ -193,7 +207,7 @@ dplyr::tibble(
 arrow_data <- arrow::open_dataset(dir_path)
 ```
 
-### Example of data processing with an `arrow` dataset
+## Example of data processing with an `arrow` dataset
 
 ```{r}
 #| eval: false
@@ -236,8 +250,8 @@ data <-
 ::: {.callout-note}
 See:
 
-* https://apisidra.ibge.gov.br/
-* https://sidra.ibge.gov.br/tabela/7358
+* <https://apisidra.ibge.gov.br/>
+* <https://sidra.ibge.gov.br/tabela/7358>
 :::
 
 ```{r}
@@ -314,7 +328,7 @@ data |>
   viridis::scale_fill_viridis(option = "inferno")
 ```
 
-### Getting samples of the data with `readr`
+## Getting samples of the data with `readr`
 
 ```{r}
 #| eval: false

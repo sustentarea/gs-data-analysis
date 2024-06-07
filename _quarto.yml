@@ -10,8 +10,10 @@ profile:
   default: html
 
 book:
-  title: "Exploratory data analysis for Sustentarea's Global Syndemic project"
-  author: "Arthur Ramalho Magalhães, Daniel Vartanian and Aline Martins de Carvalho"
+  title: >
+    Exploratory data analysis for Sustentarea's Global Syndemic project
+  author: >
+    Arthur Ramalho Magalhães, Daniel Vartanian and Aline Martins de Carvalho
   keyword: >
     Global syndemic. Children's nutrition. Climate change. Global warming.
     Childrens's health. Brazil. SUS. SISVAN. INMET. IBGE. CONAB. rstats.
@@ -22,7 +24,7 @@ book:
   repo-branch: main
   publisher: "Sustentarea"
   publisher-place: "São Paulo, SP, Brazil"
-  language: en-us
+  language: en
   license: "Creative Commons Attribution 4.0 International (CC BY 4.0)"
 
 citation:

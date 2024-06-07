@@ -30,7 +30,6 @@ read_demas_sisvan <- function(
         asciify = FALSE
       ),
       na = c("", "NA"),
-      quoted_na = TRUE,
       comment = "",
       trim_ws = FALSE,
       skip = ifelse(skip == 0, 1, skip + 1),

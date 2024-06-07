@@ -2,27 +2,39 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://sustentarea.github.io/gs-data-analysis/index.html</loc>
-    <lastmod>2024-06-02T07:23:08.801Z</lastmod>
+    <lastmod>2024-06-07T05:45:32.657Z</lastmod>
   </url>
   <url>
-    <loc>https://sustentarea.github.io/gs-data-analysis/qmd/book-introduction.html</loc>
-    <lastmod>2024-06-02T06:43:20.557Z</lastmod>
+    <loc>https://sustentarea.github.io/gs-data-analysis/qmd/book-abstract.html</loc>
+    <lastmod>2024-06-07T04:06:57.910Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sustentarea.github.io/gs-data-analysis/qmd/book-objectives.html</loc>
+    <lastmod>2024-06-07T04:16:13.244Z</lastmod>
   </url>
   <url>
     <loc>https://sustentarea.github.io/gs-data-analysis/qmd/book-methods.html</loc>
-    <lastmod>2024-06-02T03:52:18.598Z</lastmod>
+    <lastmod>2024-06-07T04:15:58.372Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sustentarea.github.io/gs-data-analysis/qmd/book-activities.html</loc>
+    <lastmod>2024-06-07T04:06:52.082Z</lastmod>
   </url>
   <url>
     <loc>https://sustentarea.github.io/gs-data-analysis/qmd/book-report-1.html</loc>
-    <lastmod>2024-06-02T07:22:08.510Z</lastmod>
+    <lastmod>2024-06-07T05:15:52.341Z</lastmod>
   </url>
   <url>
     <loc>https://sustentarea.github.io/gs-data-analysis/qmd/book-report-2.html</loc>
-    <lastmod>2024-06-02T03:56:42.445Z</lastmod>
+    <lastmod>2024-06-07T05:31:45.901Z</lastmod>
   </url>
   <url>
     <loc>https://sustentarea.github.io/gs-data-analysis/qmd/book-report-3.html</loc>
-    <lastmod>2024-06-02T03:56:46.051Z</lastmod>
+    <lastmod>2024-06-07T05:44:24.974Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sustentarea.github.io/gs-data-analysis/qmd/book-report-4.html</loc>
+    <lastmod>2024-06-07T05:44:15.353Z</lastmod>
   </url>
   <url>
     <loc>https://sustentarea.github.io/gs-data-analysis/qmd/book-manuscript.html</loc>
@@ -58,6 +70,10 @@
   </url>
   <url>
     <loc>https://sustentarea.github.io/gs-data-analysis/qmd/book-appendice-report-3.html</loc>
-    <lastmod>2024-06-02T03:53:11.266Z</lastmod>
+    <lastmod>2024-06-07T04:13:06.925Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sustentarea.github.io/gs-data-analysis/qmd/book-example-of-use.html</loc>
+    <lastmod>2024-06-07T01:13:23.870Z</lastmod>
   </url>
 </urlset>

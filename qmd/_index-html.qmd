@@ -8,6 +8,10 @@
 source(here::here("R/quarto-setup.R"))
 ```
 
+::: {.callout-warning}
+You are reading the work-in-progress of this book.
+:::
+
 This book is related to the exploratory data analysis made for [Sustentarea](https://www.fsp.usp.br/sustentarea)'s Global Syndemic Project.
 
 All analyses in this document are reproducible and were conducted using the [R programming language](https://www.r-project.org/) along with the [Quarto](https://quarto.org/) publishing system. Click [here](https://github.com/sustentarea/gs-data-analysis/issues/) or on the GitHub icon in the menu to access the research compendium for the thesis.
@@ -25,7 +29,7 @@ BibTeX citation:
   title = {`r env_vars[["title"]]`},
   author = {`r env_vars[["author"]]`},
   year = {`r env_vars[["year"]]`},
-  institution = {`r env_vars[["publisher"]]`},
+  institution = {`r env_vars[["institute"]]`},
   langid = {`r env_vars[["language"]]`},
   url = {`r env_vars[["url"]]`}
 }

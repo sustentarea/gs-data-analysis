@@ -1,4 +1,4 @@
-# Report 3
+# WorldClim data
 
 ```{r}
 #| label: setup
@@ -15,4 +15,76 @@ rutils:::quarto_status(
   type = "drafting",
   of_what = "of this report"
   )
+```
+
+## AMBDAta (INPE)
+
+```{r}
+#| eval: false
+#| code-fold: false
+
+library(raster)
+library(rvest)
+library(string)
+library(utils)
+```
+
+### Web scraping
+
+```{r}
+#| eval: false
+#| code-fold: false
+html <- rvest::read_html("https://www.dpi.inpe.br/Ambdata/download.php")
+
+data_links <- html |>
+  rvest::html_elements("a") |>
+  rvest::html_attr("href") |>
+  stringr::str_subset("^http+[s]?:/") |>
+  stringr::str_subset("BR_WC21")
+```
+
+## Dowloading and unzipping the data
+
+```{r}
+#| eval: false
+#| code-fold: false
+
+# See: https://www.dpi.inpe.br/Ambdata/download.php
+
+var <- "PP"
+
+dir_path <- here::here(".data", "ambdata", "woldclim", var, "zip")
+
+if (!dir.exists(dir_path)) {
+  dir.create(dir_path, recursive = TRUE, showWarnings = FALSE)
+}
+
+dest_file <- 
+  dir_path |>
+  here::here(paste0("ambdata_worldclim_", var, ".zip"))
+
+url <- data_links |> 
+  stringr::str_subset(paste0(var, ".zip$")) %>% 
+  `[`(1)
+
+curl::curl_download(url = url, destfile = dest_file)
+
+dir_path <- dir_path |> stringr::str_replace("zip$", "asc")
+
+if (!dir.exists(dir_path)) {
+  dir.create(dir_path, recursive = TRUE, showWarnings = FALSE)
+}
+
+files <- utils::unzip(zipfile = dest_file, exdir = dir_path)
+```
+
+## Reading data
+
+```{r}
+#| eval: false
+#| code-fold: false
+
+data <- files[1] |> raster::raster()
+
+## TBA
 ```

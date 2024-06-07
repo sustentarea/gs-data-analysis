@@ -85,6 +85,10 @@ env_vars |> yaml::write_yaml(env_vars_file_path)
 
 # Scan Quarto files for citations and add them to references.bib -----
 
+# (2024-06-05)
+# This function only works with BetterBibTeX (BBT) for Zotero version v6.7.140
+# or lower.
+
 rutils:::bbt_write_quarto_bib(
     bib_file = "references.bib",
     dir = c("", "qmd"),
