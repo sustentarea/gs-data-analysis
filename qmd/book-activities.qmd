@@ -1,0 +1,53 @@
+# Scheduled activities
+
+```{r}
+#| label: setup
+#| include: false
+
+source(here::here("R/quarto-setup.R"))
+```
+
+| Activities | Months 1-4 | Months 5-7 | Months 7-8 | Months 9-11 | Month 12 |
+|------------|------------|------------|------------|-------------|----------|
+| Initial Planning and Data Analysis I | ✔ | | | | |
+| - Review of climate change metrics | ✔ | | | | |
+| - Identification of articles and data sources | ✔ | | | | |
+| - Database construction | ✔ | | | | |
+| - Identification of locations with climate changes | ✔ | | | | |
+| - Construction of food price database | ✔ | | | | |
+| - Identification of locations with high prices | ✔ | | | | |
+| - Presentation of databases | ✔ | | | | |
+| - Identification of relationships | ✔ | | | | |
+| - Contribution to the review paper | ✔ | | | | |
+| Presentation of Results | | ✔ | | | |
+| - Presentation development | | ✔ | | | |
+| - Dashboard creation | | ✔ | | | |
+| - Paper writing | | ✔ | | | |
+| - Evaluation feedback | | ✔ | | | |
+| Organization of the Resiclima Event | | | ✔ | | |
+| - Logistic planning | | | ✔ | | |
+| - Presentation of results at the event | | | ✔ | | |
+| - Participation in discussions and thematic sessions | | | ✔ | | |
+| - Submission of article I | | | ✔ | | |
+| Data Analysis and Interpretation II | | | | ✔ | |
+| - Verification of climate and health relationships | | | | ✔ | |
+| - Presentation development | | | | ✔ | |
+| - Writing results and dashboard | | | | ✔ | |
+| - Use of data in the master's paper | | | | ✔ | |
+| Delivery of the Final Report and Future Planning | | | | | ✔ |
+| - Report writing | | | | | ✔ |
+| - Reflection on results and planning | | | | | ✔ |
+
+: Scheduled activities {tbl-colwidths="[50,10,10,10,10,10]" .striped .hover}
+
+
+```{=html}
+<br>
+```
+
+## Cross-cutting activities
+
+* Actively participate in the bi-weekly meetings of the [Núcleo Sustentarea](https://www.fsp.usp.br/sustentarea/).
+* Actively participate in the activities of [LEA-UFPE](https://labentoaplicada.blogspot.com/).
+* Monthly meeting with project fellows and researchers.
+* Collaborate with study groups.
