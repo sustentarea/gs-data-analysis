@@ -1,4 +1,0 @@
-<!-- %:::% slides-objectives begin %:::% -->
-## Object and objectives {.smaller}
-
-<!-- %:::% slides-objectives end %:::% -->

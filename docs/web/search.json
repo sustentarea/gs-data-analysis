@@ -14,14 +14,14 @@
     "href": "index.html#citation",
     "title": "",
     "section": "Citation",
-    "text": "Citation\nFor attribution, please cite this work as:\nMagalhães, A. R., Vartanian, D., & Carvalho, A. M. (2024). Exploratory data analysis for Sustentarea’s Global Syndemic project  . https://sustentarea.github.io/gs-data-analysis/\nBibTeX citation:\n@techreport{carvalho2024,\n  title = {Exploratory data analysis for Sustentarea's Global Syndemic project\n},\n  author = {Arthur R. Magalhães, Daniel Vartanian and Aline M. de Carvalho},\n  year = {2024},\n  institution = {Sustentarea},\n  langid = {en},\n  url = {https://sustentarea.github.io/gs-data-analysis/}\n}",
+    "text": "Citation\nFor attribution, please cite this work as:\nMagalhães, A. R., Vartanian, D., & Carvalho, A. M. (2024). Impact of climate change on child nutrition: data analysis and database development  . https://sustentarea.github.io/gs-data-analysis/\nBibTeX citation:\n@techreport{carvalho2024,\n  title = {Impact of climate change on child nutrition: data analysis and database development\n},\n  author = {Arthur R. Magalhães, Daniel Vartanian and Aline M. de Carvalho},\n  year = {2024},\n  institution = {Sustentarea},\n  langid = {en},\n  url = {https://sustentarea.github.io/gs-data-analysis/}\n}",
     "crumbs": [
       "Welcome"
     ]
   },
   {
-    "objectID": "qmd/book-abstract.html",
-    "href": "qmd/book-abstract.html",
+    "objectID": "qmd/abstract.html",
+    "href": "qmd/abstract.html",
     "title": "\n1  Abstract\n",
     "section": "",
     "text": "Climate change has the potential to affect the availability, access, and utilization of food, as well as the stability of food systems. This synergistic impact between climate change, malnutrition, and obesity is recognized as a Global Syndemic, resulting in significant challenges for populations around the world. In Brazil, we observe evidence of this challenge, with more than 60% of the population being overweight and over 10 million people facing severe food insecurity (Instituto Brasileiro de Geografia e Estatística, 2020). Additionally, about 7% of Brazilian children under five years old have low height for their age, and 5% are overweight for their age (Universidade Federal do Rio de Janeiro, 2022), indicators considered suboptimal by the World Health Organization (World Health Organization, n.d.). Future projections are even more alarming, predicting that by 2035, half of Brazilian children could be considered obese (World Obesity Federation, 2024). Nonetheless, there is a significant knowledge gap regarding the relationship between anthropometric indicators and environmental factors, such as climate change and extreme weather events. This work aims to address this gap by proposing to: 1 - Conduct a literature review on the metrics used to measure climate change; 2 - Analyze the operation of the Global Syndemic of malnutrition, obesity, and climate change based on the literature; 3 - Investigate the relationship between the intensification of extreme weather events and the occurrence of malnutrition and obesity in children under five years old in Brazil.\n\n\n\n\nInstituto Brasileiro de Geografia e Estatística. (2020). Pesquisa de orçamentos familiares: 2017-2018 : avaliação nutricional da disponibilidade domiciliar de alimentos no Brasil (p. 61). IBGE. https://biblioteca.ibge.gov.br/index.php/biblioteca-catalogo?view=detalhes&id=2101704\n\n\nUniversidade Federal do Rio de Janeiro. (2022). Estado nutricional antropométrico da criança e da mãe: Prevalência de indicadores antropométrico de crianças brasileiras menores de 5 anos de idade e suas mães biológicas: ENANI 2019 (7; p. 96). UFRJ. https://enani.nutricao.ufrj.br/index.php/relatorios\n\n\nWorld Health Organization. (n.d.). Body mass index-for-age (BMI-for-age). World Health Organization. Retrieved June 7, 2024, from https://www.who.int/toolkits/child-growth-standards/standards/body-mass-index-for-age-bmi-for-age\n\n\nWorld Obesity Federation. (2024). World obesity atlas 2024 (p. 235). World Obesity Federation. https://data.worldobesity.org/publications/?cat=22",
@@ -30,8 +30,8 @@
     ]
   },
   {
-    "objectID": "qmd/book-objectives.html",
-    "href": "qmd/book-objectives.html",
+    "objectID": "qmd/objectives.html",
+    "href": "qmd/objectives.html",
     "title": "\n2  Objectives\n",
     "section": "",
     "text": "2.1 General Objective\nEvaluate the impact of anthropogenic climate change on obesity and malnutrition patterns in Brazilian children under five years old, considering the context of the global syndemic.",
@@ -40,8 +40,8 @@
     ]
   },
   {
-    "objectID": "qmd/book-objectives.html#specific-objectives",
-    "href": "qmd/book-objectives.html#specific-objectives",
+    "objectID": "qmd/objectives.html#specific-objectives",
+    "href": "qmd/objectives.html#specific-objectives",
     "title": "\n2  Objectives\n",
     "section": "\n2.2 Specific Objectives",
     "text": "2.2 Specific Objectives\n\nConduct a comprehensive review of the metrics used to measure anthropogenic climate change and extreme weather events.\nAnalyze the scope of the global syndemic, understanding the interrelationships between obesity, malnutrition, and climate change, based on the literature review.\nDevelop and manage a comprehensive database containing variables related to climate, food systems, and child health, focusing on those monitored by the Brazilian Unified Health System (SUS) within the framework of Primary Health Care.\nInvestigate the relationship between the increased frequency of extreme events and obesity and malnutrition in children under five years old using network-based analyses.",
@@ -50,8 +50,8 @@
     ]
   },
   {
-    "objectID": "qmd/book-methods.html",
-    "href": "qmd/book-methods.html",
+    "objectID": "qmd/methods.html",
+    "href": "qmd/methods.html",
     "title": "\n3  Methods\n",
     "section": "",
     "text": "3.1 Literature review\nFor the literature review, we adopt the PICO methodology (Koricheva et al., 2013), considering:\nThe search key includes terms related to climate change, children, and nutritional outcomes. The databases Scopus, MEDLINE (PubMed), and Web of Science (WoS) were chosen for the search.",
@@ -60,8 +60,8 @@
     ]
   },
   {
-    "objectID": "qmd/book-methods.html#literature-review",
-    "href": "qmd/book-methods.html#literature-review",
+    "objectID": "qmd/methods.html#literature-review",
+    "href": "qmd/methods.html#literature-review",
     "title": "\n3  Methods\n",
     "section": "",
     "text": "(P) Population: children &lt; 5 years old monitored by the SUS.\n(IC) Intervention/Context: climate change affecting children’s food health\n(O) Outcome: Increase in obesity and malnutrition.",
@@ -70,8 +70,8 @@
     ]
   },
   {
-    "objectID": "qmd/book-methods.html#databases",
-    "href": "qmd/book-methods.html#databases",
+    "objectID": "qmd/methods.html#databases",
+    "href": "qmd/methods.html#databases",
     "title": "\n3  Methods\n",
     "section": "\n3.2 Databases",
     "text": "3.2 Databases\nPublic health and climate databases from municipalities, accessible on public websites, will be used, including:\n\nInformation on the nutritional status of children under five years old, from the Food and Nutrition Surveillance System (SISVAN) based on Brazilian Unified Health System (SUS) services between 2008 and 2022.\nData on food consumption of children under five years old, from the Food and Nutrition Surveillance System (SISVAN) based on SUS services between 2015 and 2022.\nRecords of greenhouse gas emissions at the municipal level, from the Greenhouse Gas Emission Estimation System (SEEG Brazil) (2000-2019).\nInformation on anthropogenic changes in municipalities, such as land use changes, from MapBiomas Brasil between 2000 and 2019, and other sources.\nAdditionally, databases containing essential information about municipalities, such as population size, population density, number of children under five years old, Human Development Index (HDI), and adherence to the Family Health Program, obtained through the MUNIC, Cidades, and 2022 Census sources of the IBGE.",
@@ -80,8 +80,8 @@
     ]
   },
   {
-    "objectID": "qmd/book-methods.html#variables-of-interest",
-    "href": "qmd/book-methods.html#variables-of-interest",
+    "objectID": "qmd/methods.html#variables-of-interest",
+    "href": "qmd/methods.html#variables-of-interest",
     "title": "\n3  Methods\n",
     "section": "\n3.3 Variables of interest",
     "text": "3.3 Variables of interest\nTo assess the global syndemic, we consider:\n\nHealth variables: BMI, height and food consumption.\nEnvironmental variables: gas emissions and variables derived from temperature and precipitation.\nSocioeconomic variables: population, density and HDI.\n\nChildren will be classified according to nutritional status, and the variables will be normalized to the number of children in the municipality.",
@@ -90,8 +90,8 @@
     ]
   },
   {
-    "objectID": "qmd/book-methods.html#complex-systems-methodology",
-    "href": "qmd/book-methods.html#complex-systems-methodology",
+    "objectID": "qmd/methods.html#complex-systems-methodology",
+    "href": "qmd/methods.html#complex-systems-methodology",
     "title": "\n3  Methods\n",
     "section": "\n3.4 Complex systems methodology",
     "text": "3.4 Complex systems methodology\nComplex systems techniques, including network analysis and agent-based modeling (ABM), will be employed. A conceptual model will be built from the literature review, representing municipalities and children as agents. The environment will be defined by the climatic conditions of each municipality. Mathematical models will be used to represent interactions and system dynamics. The implementation will be carried out in Python, R, or Netlogo, and the results will be summarized in a management platform (Shiny).\n\n\n\n\nKoricheva, J., Gurevitch, J., & Mengersen, K. L. (Eds.). (2013). Handbook of meta-analysis in ecology and evolution. Princeton University Press.",
@@ -100,8 +100,8 @@
     ]
   },
   {
-    "objectID": "qmd/book-activities.html",
-    "href": "qmd/book-activities.html",
+    "objectID": "qmd/activities.html",
+    "href": "qmd/activities.html",
     "title": "\n4  Scheduled activities\n",
     "section": "",
     "text": "4.1 Cross-cutting activities",
@@ -110,8 +110,8 @@
     ]
   },
   {
-    "objectID": "qmd/book-activities.html#cross-cutting-activities",
-    "href": "qmd/book-activities.html#cross-cutting-activities",
+    "objectID": "qmd/activities.html#cross-cutting-activities",
+    "href": "qmd/activities.html#cross-cutting-activities",
     "title": "\n4  Scheduled activities\n",
     "section": "",
     "text": "Actively participate in the bi-weekly meetings of the Núcleo Sustentarea.\nActively participate in the activities of LEA-UFPE.\nMonthly meeting with project fellows and researchers.\nCollaborate with study groups.",
@@ -120,216 +120,238 @@
     ]
   },
   {
-    "objectID": "qmd/book-report-1.html",
-    "href": "qmd/book-report-1.html",
+    "objectID": "qmd/report-1.html",
+    "href": "qmd/report-1.html",
     "title": "\n5  SISVAN data\n",
     "section": "",
-    "text": "5.1 Dowloading and unzipping the data\n# library(arrow, quietly = TRUE)\n# library(curl, quietly = TRUE)\n# library(dplyr, quietly = TRUE)\n# library(utils, quietly = TRUE)\ndir_path &lt;- here::here(\".data\", \"sisvan\", \"estado-nutricional\", \"2023\", \"zip\")\n\nif (!dir.exists(dir_path)) {\n  dir.create(dir_path, recursive = TRUE, showWarnings = FALSE)\n}\n\nurl &lt;- paste0(\n  \"https://s3.sa-east-1.amazonaws.com/ckan.saude.gov.br/\",\n  \"SISVAN/estado_nutricional/sisvan_estado_nutricional_2023.zip\"\n)\n\ndest_file &lt;- here::here(dir_path, \"sisvan_estado-nutricional_2023.zip\")\ncurl::curl_download(url = url, destfile = dest_file)\n\ndir_path &lt;- dir_path |&gt; stringr::str_replace(\"zip$\", \"csv\")\nif (!dir.exists(dir_path)) dir.create(dir_path, showWarnings = FALSE)\n\nfile &lt;- utils::unzip(zipfile = dest_file, exdir = dir_path)",
+    "text": "5.1 Dowloading and unzipping the data\n# library(arrow, quietly = TRUE)\n# library(curl, quietly = TRUE)\n# library(dplyr, quietly = TRUE)\n# library(fpeek, quietly = TRUE)\n# library(utils, quietly = TRUE)\nyear &lt;- 2019\n\ndir_path &lt;- here::here(\".data\", \"sisvan\", \"estado-nutricional\", year, \"zip\")\n\nif (!dir.exists(dir_path)) {\n  dir.create(dir_path, recursive = TRUE, showWarnings = FALSE)\n}\n\nurl &lt;- paste0(\n  \"https://s3.sa-east-1.amazonaws.com/ckan.saude.gov.br/\",\n  \"SISVAN/estado_nutricional/sisvan_estado_nutricional_\", year, \".zip\"\n)\n\ndest_file &lt;- here::here(dir_path, \"sisvan_estado-nutricional_2023.zip\")\ncurl::curl_download(url = url, destfile = dest_file)\n\ndir_path &lt;- dir_path |&gt; stringr::str_replace(\"zip$\", \"csv\")\nif (!dir.exists(dir_path)) dir.create(dir_path, showWarnings = FALSE)\n\nfile &lt;- utils::unzip(zipfile = dest_file, exdir = dir_path)",
     "crumbs": [
-      "Exploratory data analyses",
+      "Data analyses",
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>SISVAN data</span>"
     ]
   },
   {
-    "objectID": "qmd/book-report-1.html#dowloading-and-unzipping-the-data",
-    "href": "qmd/book-report-1.html#dowloading-and-unzipping-the-data",
+    "objectID": "qmd/report-1.html#dowloading-and-unzipping-the-data",
+    "href": "qmd/report-1.html#dowloading-and-unzipping-the-data",
     "title": "\n5  SISVAN data\n",
     "section": "",
     "text": "See:\n\nhttps://opendatasus.saude.gov.br/dataset/sisvan-estado-nutricional\nhttps://apidadosabertos.saude.gov.br/v1/#/SISVAN/get_sisvan_estado_nutricional",
     "crumbs": [
-      "Exploratory data analyses",
+      "Data analyses",
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>SISVAN data</span>"
     ]
   },
   {
-    "objectID": "qmd/book-report-1.html#creating-a-schema-for-the-data",
-    "href": "qmd/book-report-1.html#creating-a-schema-for-the-data",
+    "objectID": "qmd/report-1.html#data-dimensions",
+    "href": "qmd/report-1.html#data-dimensions",
     "title": "\n5  SISVAN data\n",
-    "section": "\n5.2 Creating a schema for the data",
-    "text": "5.2 Creating a schema for the data\n\nschema &lt;- arrow::schema(\n  CO_ACOMPANHAMENTO = arrow::string(),\n  CO_PESSOA_SISVAN = arrow::string(),\n  ST_PARTICIPA_ANDI = arrow::string(),\n  CO_MUNICIPIO_IBGE = arrow::string(), # arrow::int64()\n  SG_UF = arrow::string(),\n  NO_MUNICIPIO = arrow::string(),\n  CO_CNES = arrow::string(), # arrow::int64()\n  NU_IDADE_ANO = arrow::int64(),\n  NU_FASE_VIDA = arrow::float(),\n  DS_FASE_VIDA = arrow::string(),\n  SG_SEXO = arrow::string(),\n  CO_RACA_COR = arrow::int64(),\n  DS_RACA_COR = arrow::string(),\n  CO_POVO_COMUNIDADE = arrow::int64(),\n  DS_POVO_COMUNIDADE = arrow::binary(),\n  CO_ESCOLARIDADE = arrow::int64(),\n  DS_ESCOLARIDADE = arrow::binary(),\n  DT_ACOMPANHAMENTO = arrow::string(),\n  NU_COMPETENCIA = arrow::int64(),\n  NU_PESO = arrow::string(),\n  NU_ALTURA = arrow::string(),\n  DS_IMC = arrow::string(),\n  DS_IMC_PRE_GESTACIONAL = arrow::float(),\n  \"PESO X IDADE\" = arrow::string(),\n  \"PESO X ALTURA\" = arrow::string(),\n  \"CRI. ALTURA X IDADE\" = arrow::string(),\n  \"CRI. IMC X IDADE\" = arrow::string(),\n  \"ADO. ALTURA X IDADE\" = arrow::string(),\n  \"ADO. IMC X IDADE\" = arrow::string(),\n  CO_ESTADO_NUTRI_ADULTO = arrow::binary(),\n  CO_ESTADO_NUTRI_IDOSO = arrow::binary(),\n  CO_ESTADO_NUTRI_IMC_SEMGEST = arrow::binary(),\n  CO_SISTEMA_ORIGEM_ACOMP = arrow::int64(),\n  SISTEMA_ORIGEM_ACOMP = arrow::string()\n)\n\n# arrow::schema(arrow_data)",
+    "section": "\n5.2 Data dimensions",
+    "text": "5.2 Data dimensions\n\ncols &lt;- \n  readLines(file, 1) |&gt;\n  stringr::str_split(\";\") |&gt;\n  unlist() |&gt;\n  length()\n\nrows &lt;- fpeek::peek_count_lines(file)\ncells &lt;- cols * rows\n\ncli::cli_inform(paste0(\n  \"The file has \", \n  \"{.strong {cli::col_red(prettyNum(cols, big.mark = ','))}} columns, \", \n  \"{.strong {cli::col_green(prettyNum(rows, big.mark = ','))}} rows, and \",\n  \"{.strong {cli::col_blue(prettyNum(cells, big.mark = ','))}} cells.\"\n))",
     "crumbs": [
-      "Exploratory data analyses",
+      "Data analyses",
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>SISVAN data</span>"
     ]
   },
   {
-    "objectID": "qmd/book-report-1.html#creating-an-arrow-dataset-based-on-the-csv-file",
-    "href": "qmd/book-report-1.html#creating-an-arrow-dataset-based-on-the-csv-file",
+    "objectID": "qmd/report-1.html#creating-a-schema-for-the-data",
+    "href": "qmd/report-1.html#creating-a-schema-for-the-data",
     "title": "\n5  SISVAN data\n",
-    "section": "\n5.3 Creating an arrow dataset based on the CSV file",
-    "text": "5.3 Creating an arrow dataset based on the CSV file\n\narrow_data &lt;-\n  file |&gt;\n  arrow::open_delim_dataset(\n    schema = NULL,\n    partitioning = arrow::hive_partition(),\n    hive_style = NA,\n    unify_schemas = NULL,\n    factory_options = list(),\n    delim = \";\",\n    quote = \"\\\"\",\n    escape_double = TRUE,\n    escape_backslash = FALSE,\n    col_names = TRUE,\n    col_types = schema,\n    na = c(\"\", \"NA\"),\n    skip_empty_rows = TRUE,\n    skip = 0L,\n    convert_options = NULL,\n    read_options = NULL,\n    timestamp_parsers = NULL,\n    quoted_na = TRUE,\n    parse_options = NULL\n  )",
+    "section": "\n5.3 Creating a schema for the data",
+    "text": "5.3 Creating a schema for the data\n\nschema &lt;- arrow::schema(\n  CO_ACOMPANHAMENTO = arrow::string(),\n  CO_PESSOA_SISVAN = arrow::string(),\n  ST_PARTICIPA_ANDI = arrow::string(),\n  CO_MUNICIPIO_IBGE = arrow::string(), # arrow::int64()\n  SG_UF = arrow::string(),\n  NO_MUNICIPIO = arrow::string(),\n  CO_CNES = arrow::string(), # arrow::int64()\n  NU_IDADE_ANO = arrow::int64(),\n  NU_FASE_VIDA = arrow::float(),\n  DS_FASE_VIDA = arrow::string(),\n  SG_SEXO = arrow::string(),\n  CO_RACA_COR = arrow::int64(),\n  DS_RACA_COR = arrow::string(),\n  CO_POVO_COMUNIDADE = arrow::int64(),\n  DS_POVO_COMUNIDADE = arrow::binary(),\n  CO_ESCOLARIDADE = arrow::int64(),\n  DS_ESCOLARIDADE = arrow::binary(),\n  DT_ACOMPANHAMENTO = arrow::string(),\n  NU_COMPETENCIA = arrow::int64(),\n  NU_PESO = arrow::string(),\n  NU_ALTURA = arrow::string(),\n  DS_IMC = arrow::string(),\n  DS_IMC_PRE_GESTACIONAL = arrow::float(),\n  \"PESO X IDADE\" = arrow::string(),\n  \"PESO X ALTURA\" = arrow::string(),\n  \"CRI. ALTURA X IDADE\" = arrow::string(),\n  \"CRI. IMC X IDADE\" = arrow::string(),\n  \"ADO. ALTURA X IDADE\" = arrow::string(),\n  \"ADO. IMC X IDADE\" = arrow::string(),\n  CO_ESTADO_NUTRI_ADULTO = arrow::binary(),\n  CO_ESTADO_NUTRI_IDOSO = arrow::binary(),\n  CO_ESTADO_NUTRI_IMC_SEMGEST = arrow::binary(),\n  CO_SISTEMA_ORIGEM_ACOMP = arrow::int64(),\n  SISTEMA_ORIGEM_ACOMP = arrow::string()\n)\n\n# arrow::schema(arrow_data)",
     "crumbs": [
-      "Exploratory data analyses",
+      "Data analyses",
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>SISVAN data</span>"
     ]
   },
   {
-    "objectID": "qmd/book-report-1.html#transforming-the-data-to-parquet",
-    "href": "qmd/book-report-1.html#transforming-the-data-to-parquet",
+    "objectID": "qmd/report-1.html#creating-an-arrow-dataset-based-on-the-csv-file",
+    "href": "qmd/report-1.html#creating-an-arrow-dataset-based-on-the-csv-file",
     "title": "\n5  SISVAN data\n",
-    "section": "\n5.4 Transforming the data to parquet",
-    "text": "5.4 Transforming the data to parquet\n\ndir_path &lt;- dir_path |&gt; stringr::str_replace(\"csv$\", \"parquet\")\nif (!dir.exists(dir_path)) dir.create(dir_path, showWarnings = FALSE)\n\n# Adjust the parameters below according to your machine's capacity.\narrow_data |&gt;\n  dplyr::group_by(SG_UF) |&gt;\n  arrow::write_dataset(\n    path = dir_path,\n    format = \"parquet\",\n    max_partitions = 2000,\n    max_open_files = 100,\n    max_rows_per_file = 100000\n  )\n\ndplyr::tibble(\n  files = list.files(dir_path, recursive = TRUE),\n  size_MB = file.size(file.path(dir_path, files)) / 1024^2\n)",
+    "section": "\n5.4 Creating an arrow dataset based on the CSV file",
+    "text": "5.4 Creating an arrow dataset based on the CSV file\n\narrow_data &lt;-\n  file |&gt;\n  arrow::open_delim_dataset(\n    schema = NULL,\n    partitioning = arrow::hive_partition(),\n    hive_style = NA,\n    unify_schemas = NULL,\n    factory_options = list(),\n    delim = \";\",\n    quote = \"\\\"\",\n    escape_double = TRUE,\n    escape_backslash = FALSE,\n    col_names = TRUE,\n    col_types = schema,\n    na = c(\"\", \"NA\"),\n    skip_empty_rows = TRUE,\n    skip = 0L,\n    convert_options = NULL,\n    read_options = NULL,\n    timestamp_parsers = NULL,\n    quoted_na = TRUE,\n    parse_options = NULL\n  )",
     "crumbs": [
-      "Exploratory data analyses",
+      "Data analyses",
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>SISVAN data</span>"
     ]
   },
   {
-    "objectID": "qmd/book-report-1.html#creating-an-arrow-dataset-based-on-the-parquet-files",
-    "href": "qmd/book-report-1.html#creating-an-arrow-dataset-based-on-the-parquet-files",
+    "objectID": "qmd/report-1.html#transforming-the-data-to-parquet",
+    "href": "qmd/report-1.html#transforming-the-data-to-parquet",
     "title": "\n5  SISVAN data\n",
-    "section": "\n5.5 Creating an arrow dataset based on the parquet files",
-    "text": "5.5 Creating an arrow dataset based on the parquet files\n\ndir_path &lt;- here::here(\".data/sisvan_estado-nutricional-2023/parquet\")\nif (!dir.exists(dir_path)) dir.create(dir_path, showWarnings = FALSE)\n\narrow_data |&gt;\n  dplyr::group_by(SG_UF) |&gt;\n  arrow::write_dataset(\n    path = dir_path,\n    format = \"parquet\",\n    max_partitions = 2000,\n    max_open_files = 100,\n    max_rows_per_file = 100000\n  )\n\ndplyr::tibble(\n  files = list.files(dir_path, recursive = TRUE),\n  size_MB = file.size(file.path(dir_path, files)) / 1024^2\n)\n\n\narrow_data &lt;- arrow::open_dataset(dir_path)",
+    "section": "\n5.5 Transforming the data to parquet",
+    "text": "5.5 Transforming the data to parquet\n\ndir_path &lt;- dir_path |&gt; stringr::str_replace(\"csv$\", \"parquet\")\nif (!dir.exists(dir_path)) dir.create(dir_path, showWarnings = FALSE)\n\n# Adjust the parameters below according to your machine's capacity.\narrow_data |&gt;\n  dplyr::group_by(SG_UF) |&gt;\n  arrow::write_dataset(\n    path = dir_path,\n    format = \"parquet\",\n    max_partitions = 2000,\n    max_open_files = 100,\n    max_rows_per_file = 100000\n  )\n\ndplyr::tibble(\n  files = list.files(dir_path, recursive = TRUE),\n  size_MB = file.size(file.path(dir_path, files)) / 1024^2\n)",
     "crumbs": [
-      "Exploratory data analyses",
+      "Data analyses",
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>SISVAN data</span>"
     ]
   },
   {
-    "objectID": "qmd/book-report-1.html#example-of-data-processing-with-an-arrow-dataset",
-    "href": "qmd/book-report-1.html#example-of-data-processing-with-an-arrow-dataset",
+    "objectID": "qmd/report-1.html#creating-an-arrow-dataset-based-on-the-parquet-files",
+    "href": "qmd/report-1.html#creating-an-arrow-dataset-based-on-the-parquet-files",
     "title": "\n5  SISVAN data\n",
-    "section": "\n5.6 Example of data processing with an arrow dataset",
-    "text": "5.6 Example of data processing with an arrow dataset\n\n# library(geobr, quietly = TRUE)\n# library(sidrar, quietly = TRUE)\n# library(rutils, quietly = TRUE)\n# library(viridis, quietly = TRUE)\n\nsource(here::here(\"R\", \"utils.R\"))\n\n\ndata &lt;-\n  arrow_data |&gt;\n  # dplyr::filter(SG_UF == \"AC\") |&gt;\n  dplyr::select(SG_UF, `PESO X IDADE`, `PESO X ALTURA`) |&gt;\n  dplyr::group_by(SG_UF, `PESO X IDADE`) |&gt;\n  dplyr::summarise(n = dplyr::n()) |&gt;\n  dplyr::collect()\n\ndata |&gt; dplyr::glimpse()\n\n\ndata &lt;-\n  data %&gt;%\n  rutils:::change_name(tidy_names(names(.), tag_duplicates = TRUE)) |&gt;\n  dplyr::filter(peso_x_idade == \"Muito baixo peso para a idade\") |&gt;\n  dplyr::rename(state = sg_uf)\n\n\n\n\n\n\n\nSee:\n\nhttps://apisidra.ibge.gov.br/\nhttps://sidra.ibge.gov.br/tabela/7358\n\n\n\n\n\nsidra_data &lt;-\n  sidrar::get_sidra(\n    api = \"/t/7358/n1/all/n3/all/v/all/p/all/c2/6794/c287/100362/c1933/49039\"\n  )\n\nsidra_data &lt;-\n  sidra_data %&gt;%\n  rutils:::change_name(tidy_names(names(.), tag_duplicates = FALSE)) |&gt;\n  dplyr::as_tibble() |&gt;\n  dplyr::rename(\n    state = brasil_e_unidade_da_federacao,\n    population = valor,\n    year = ano_dup_2,\n  ) |&gt;\n  dplyr::filter(nivel_territorial == \"Unidade da Federação\") |&gt;\n  dplyr::select(state, population, year) |&gt;\n  dplyr::mutate(state = rename_br_state_to_uf(state))\n\n\ndata &lt;-\n  data |&gt;\n  dplyr::left_join(sidra_data, by = \"state\") |&gt;\n  dplyr::mutate(\n    n_rel = n / population,\n    n_per = n_rel * 100\n  ) |&gt;\n  dplyr::arrange(dplyr::desc(n_per))\n\n\nbrazil_uf_map &lt;-\n  geobr::read_state(year = 2020, showProgress = FALSE) |&gt;\n  rutils:::shush() |&gt;\n  dplyr::rename(state = abbrev_state) |&gt;\n  dplyr::select(state, geom)\n\ndata &lt;-\n  data |&gt;\n  dplyr::left_join(brazil_uf_map, by = \"state\")\n\n\ndata |&gt;\n  dplyr::mutate(n = n_per) |&gt;\n  dplyr::select(state, n, geom) |&gt;\n  ggplot2::ggplot() +\n  ggplot2::geom_sf(ggplot2::aes(geometry = geom, fill = n)) +\n  ggplot2::labs(\n    title = \"SISVAN 2023\",\n    subtitle = paste0(\n      \"Porcentagem de crianças com 'muito baixo peso para a idade' \",\n      \"em relação à\\npopulação total da UF. \"\n    ),\n    x = \"Longitude\",\n    y = \"Latitude\",\n    fill = \"%\"\n  ) +\n  viridis::scale_fill_viridis(option = \"inferno\")",
+    "section": "\n5.6 Creating an arrow dataset based on the parquet files",
+    "text": "5.6 Creating an arrow dataset based on the parquet files\n\ndir_path &lt;- here::here(\".data/sisvan_estado-nutricional-2023/parquet\")\nif (!dir.exists(dir_path)) dir.create(dir_path, showWarnings = FALSE)\n\narrow_data |&gt;\n  dplyr::group_by(SG_UF) |&gt;\n  arrow::write_dataset(\n    path = dir_path,\n    format = \"parquet\",\n    max_partitions = 2000,\n    max_open_files = 100,\n    max_rows_per_file = 100000\n  )\n\ndplyr::tibble(\n  files = list.files(dir_path, recursive = TRUE),\n  size_MB = file.size(file.path(dir_path, files)) / 1024^2\n)\n\n\narrow_data &lt;- arrow::open_dataset(dir_path)",
     "crumbs": [
-      "Exploratory data analyses",
+      "Data analyses",
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>SISVAN data</span>"
     ]
   },
   {
-    "objectID": "qmd/book-report-1.html#getting-samples-of-the-data-with-readr",
-    "href": "qmd/book-report-1.html#getting-samples-of-the-data-with-readr",
+    "objectID": "qmd/report-1.html#example-of-data-processing-with-an-arrow-dataset",
+    "href": "qmd/report-1.html#example-of-data-processing-with-an-arrow-dataset",
     "title": "\n5  SISVAN data\n",
-    "section": "\n5.7 Getting samples of the data with readr\n",
-    "text": "5.7 Getting samples of the data with readr\n\n\n# library(readr, quietly = TRUE)\n\nsource(here::here(\"R\", \"read_demas_sisvan.R\"))\n\n\ndata &lt;-\n  file |&gt;\n  read_demas_sisvan(\n    skip = 0,\n    n_max = 1000,\n    lazy = FALSE,\n    show_progress = TRUE\n  )\n\ndata |&gt; dplyr::glimpse()\n\n\ndata &lt;-\n  file |&gt;\n  read_and_filter(\n    fns = read_demas_sisvan,\n    filter_statement = \"SG_UF == 'SP'\",\n    batch_n = 10000,\n    batch_max = 50,\n    has_header = TRUE\n  )\n\ndata |&gt; dplyr::glimpse()",
+    "section": "\n5.7 Example of data processing with an arrow dataset",
+    "text": "5.7 Example of data processing with an arrow dataset\n\n# library(geobr, quietly = TRUE)\n# library(sidrar, quietly = TRUE)\n# library(rutils, quietly = TRUE)\n# library(viridis, quietly = TRUE)\n\nsource(here::here(\"R\", \"utils.R\"))\n\n\ndata &lt;-\n  arrow_data |&gt;\n  # dplyr::filter(SG_UF == \"AC\") |&gt;\n  dplyr::select(SG_UF, `PESO X IDADE`, `PESO X ALTURA`) |&gt;\n  dplyr::group_by(SG_UF, `PESO X IDADE`) |&gt;\n  dplyr::summarise(n = dplyr::n()) |&gt;\n  dplyr::collect()\n\ndata |&gt; dplyr::glimpse()\n\n\ndata &lt;-\n  data %&gt;%\n  rutils:::change_name(tidy_names(names(.), tag_duplicates = TRUE)) |&gt;\n  dplyr::filter(peso_x_idade == \"Muito baixo peso para a idade\") |&gt;\n  dplyr::rename(state = sg_uf)\n\n\n\n\n\n\n\nSee:\n\nhttps://apisidra.ibge.gov.br/\nhttps://sidra.ibge.gov.br/tabela/7358\n\n\n\n\n\nsidra_data &lt;-\n  sidrar::get_sidra(\n    api = \"/t/7358/n1/all/n3/all/v/all/p/all/c2/6794/c287/100362/c1933/49039\"\n  )\n\nsidra_data &lt;-\n  sidra_data %&gt;%\n  rutils:::change_name(tidy_names(names(.), tag_duplicates = FALSE)) |&gt;\n  dplyr::as_tibble() |&gt;\n  dplyr::rename(\n    state = brasil_e_unidade_da_federacao,\n    population = valor,\n    year = ano_dup_2,\n  ) |&gt;\n  dplyr::filter(nivel_territorial == \"Unidade da Federação\") |&gt;\n  dplyr::select(state, population, year) |&gt;\n  dplyr::mutate(state = rename_br_state_to_uf(state))\n\n\ndata &lt;-\n  data |&gt;\n  dplyr::left_join(sidra_data, by = \"state\") |&gt;\n  dplyr::mutate(\n    n_rel = n / population,\n    n_per = n_rel * 100\n  ) |&gt;\n  dplyr::arrange(dplyr::desc(n_per))\n\n\nbrazil_uf_map &lt;-\n  geobr::read_state(year = 2020, showProgress = FALSE) |&gt;\n  rutils:::shush() |&gt;\n  dplyr::rename(state = abbrev_state) |&gt;\n  dplyr::select(state, geom)\n\ndata &lt;-\n  data |&gt;\n  dplyr::left_join(brazil_uf_map, by = \"state\")\n\n\ndata |&gt;\n  dplyr::mutate(n = n_per) |&gt;\n  dplyr::select(state, n, geom) |&gt;\n  ggplot2::ggplot() +\n  ggplot2::geom_sf(ggplot2::aes(geometry = geom, fill = n)) +\n  ggplot2::labs(\n    title = \"SISVAN 2023\",\n    subtitle = paste0(\n      \"Porcentagem de crianças com 'muito baixo peso para a idade' \",\n      \"em relação à\\npopulação total da UF. \"\n    ),\n    x = \"Longitude\",\n    y = \"Latitude\",\n    fill = \"%\"\n  ) +\n  viridis::scale_fill_viridis(option = \"inferno\")",
     "crumbs": [
-      "Exploratory data analyses",
+      "Data analyses",
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>SISVAN data</span>"
     ]
   },
   {
-    "objectID": "qmd/book-report-2.html",
-    "href": "qmd/book-report-2.html",
+    "objectID": "qmd/report-1.html#getting-samples-of-the-data-with-readr",
+    "href": "qmd/report-1.html#getting-samples-of-the-data-with-readr",
+    "title": "\n5  SISVAN data\n",
+    "section": "\n5.8 Getting samples of the data with readr\n",
+    "text": "5.8 Getting samples of the data with readr\n\n\n# library(readr, quietly = TRUE)\n\nsource(here::here(\"R\", \"read_demas_sisvan.R\"))\n\n\n# file &lt;- file.choose()\n\n# file &lt;- \n#   here::here(\".data\", \"sisvan\", \"estado-nutricional\", \"2023\", \"csv\") |&gt;\n#   list.files(full.names = TRUE)\n\ndata &lt;-\n  file |&gt;\n  read_demas_sisvan(\n    skip = 0,\n    n_max = 1000,\n    lazy = FALSE,\n    show_progress = TRUE\n  )\n\ndata |&gt; dplyr::glimpse()\n\n\ndata &lt;-\n  file |&gt;\n  read_and_filter(\n    fns = read_demas_sisvan,\n    filter_statement = \"SG_UF == 'SP'\",\n    batch_n = 10000,\n    batch_max = 50,\n    has_header = TRUE\n  )\n\ndata |&gt; dplyr::glimpse()",
+    "crumbs": [
+      "Data analyses",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>SISVAN data</span>"
+    ]
+  },
+  {
+    "objectID": "qmd/report-2.html",
+    "href": "qmd/report-2.html",
     "title": "\n6  INMET data\n",
     "section": "",
     "text": "6.1 Web scraping\nhtml &lt;- rvest::read_html(\"https://portal.inmet.gov.br/dadoshistoricos\")\n\ndata_links &lt;- html |&gt;\n  rvest::html_elements(\"a\") |&gt;\n  rvest::html_attr(\"href\") |&gt;\n  stringr::str_subset(\"^http+[s]?:/\") |&gt;\n  stringr::str_subset(\"dadoshistoricos\")",
     "crumbs": [
-      "Exploratory data analyses",
+      "Data analyses",
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>INMET data</span>"
     ]
   },
   {
-    "objectID": "qmd/book-report-2.html#dowloading-and-unzipping-the-data",
-    "href": "qmd/book-report-2.html#dowloading-and-unzipping-the-data",
+    "objectID": "qmd/report-2.html#dowloading-and-unzipping-the-data",
+    "href": "qmd/report-2.html#dowloading-and-unzipping-the-data",
     "title": "\n6  INMET data\n",
     "section": "\n6.2 Dowloading and unzipping the data",
     "text": "6.2 Dowloading and unzipping the data\n\nyear &lt;- \"2024\"\n\ndir_path &lt;- here::here(\".data\", \"inmet\", \"dados-historicos\", year, \"zip\")\n\nif (!dir.exists(dir_path)) {\n  dir.create(dir_path, recursive = TRUE, showWarnings = FALSE)\n}\n\ndest_file &lt;- \n  dir_path |&gt;\n  here::here(paste0(\"inmet_dados-historicos_\", year, \".zip\"))\n\nurl &lt;- data_links |&gt; \n  stringr::str_subset(year) %&gt;% \n  `[`(1)\n\ncurl::curl_download(url = url, destfile = dest_file)\n\ndir_path &lt;- dir_path |&gt; stringr::str_replace(\"zip$\", \"csv\")\n\nif (!dir.exists(dir_path)) {\n  dir.create(dir_path, recursive = TRUE, showWarnings = FALSE)\n}\n\nfiles &lt;- utils::unzip(zipfile = dest_file, exdir = dir_path)",
     "crumbs": [
-      "Exploratory data analyses",
+      "Data analyses",
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>INMET data</span>"
     ]
   },
   {
-    "objectID": "qmd/book-report-2.html#reading-data",
-    "href": "qmd/book-report-2.html#reading-data",
+    "objectID": "qmd/report-2.html#reading-data",
+    "href": "qmd/report-2.html#reading-data",
     "title": "\n6  INMET data\n",
     "section": "\n6.3 Reading data",
-    "text": "6.3 Reading data\n\ntidy_inmet_values &lt;- function(x) {\n  checkmate::assert_character(x, min.len = 1)\n  \n  x |&gt;\n  stringr::str_to_upper() |&gt;\n  iconv(from = 'UTF-8', to = 'ASCII//TRANSLIT')\n}\n\n\ncity &lt;- \"São Paulo\" |&gt; tidy_inmet_values()\nstation &lt;- \"Interlagos\" |&gt; tidy_inmet_values()\n\nfile &lt;-\n  files |&gt;\n  stringr::str_subset(city) |&gt;\n  stringr::str_subset(station)\n\ndata &lt;- \n  file |&gt;\n  readr::read_delim(\n    delim = \";\",\n    quote = \"\\\"\",\n    escape_backslash = FALSE,\n    escape_double = TRUE,\n    col_names = TRUE,\n    col_types = readr::cols(.default = \"c\"),\n    col_select = NULL,\n    id = NULL,\n    locale = readr::locale(\n      date_names = \"pt\",\n      date_format = \"%d/%m/%Y\",\n      time_format = \"%H:%M:%S\",\n      decimal_mark = \",\",\n      grouping_mark = \".\",\n      tz = \"America/Sao_Paulo\",\n      encoding = readr::guess_encoding(file)$encoding[1],\n      asciify = FALSE\n    ),\n    na = c(\"\", \"NA\"),\n    comment = \"\",\n    trim_ws = FALSE,\n    skip = 8,\n    n_max = Inf,\n    guess_max = min(1000, Inf),\n    name_repair = \"unique\",\n    num_threads = readr::readr_threads(),\n    progress = TRUE,\n    show_col_types = FALSE,\n    skip_empty_rows = TRUE,\n    lazy = FALSE\n  )\n\ndata |&gt; dplyr::glimpse()",
+    "text": "6.3 Reading data\n\ntidy_inmet_values &lt;- function(x) {\n  checkmate::assert_character(x, min.len = 1)\n  \n  x |&gt;\n  stringr::str_to_upper() |&gt;\n  iconv(from = 'UTF-8', to = 'ASCII//TRANSLIT')\n}\n\n\n# files &lt;-\n#   here::here(\".data\", \"inmet\", \"dados-historicos\", year, \"csv\") |&gt;\n#   list.files(full.names = TRUE)\n\ncity &lt;- \"São Paulo\" |&gt; tidy_inmet_values()\nstation &lt;- \"Interlagos\" |&gt; tidy_inmet_values()\n\nfile &lt;-\n  files |&gt;\n  stringr::str_subset(city) |&gt;\n  stringr::str_subset(station)\n\ndata &lt;- \n  file |&gt;\n  readr::read_delim(\n    delim = \";\",\n    quote = \"\\\"\",\n    escape_backslash = FALSE,\n    escape_double = TRUE,\n    col_names = TRUE,\n    col_types = readr::cols(.default = \"c\"),\n    col_select = NULL,\n    id = NULL,\n    locale = readr::locale(\n      date_names = \"pt\",\n      date_format = \"%d/%m/%Y\",\n      time_format = \"%H:%M:%S\",\n      decimal_mark = \",\",\n      grouping_mark = \".\",\n      tz = \"America/Sao_Paulo\",\n      encoding = readr::guess_encoding(file)$encoding[1],\n      asciify = FALSE\n    ),\n    na = c(\"\", \"NA\"),\n    comment = \"\",\n    trim_ws = FALSE,\n    skip = 8,\n    n_max = Inf,\n    guess_max = min(1000, Inf),\n    name_repair = \"unique\",\n    num_threads = readr::readr_threads(),\n    progress = TRUE,\n    show_col_types = FALSE,\n    skip_empty_rows = TRUE,\n    lazy = FALSE\n  )\n\ndata |&gt; dplyr::glimpse()",
     "crumbs": [
-      "Exploratory data analyses",
+      "Data analyses",
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>INMET data</span>"
     ]
   },
   {
-    "objectID": "qmd/book-report-3.html",
-    "href": "qmd/book-report-3.html",
+    "objectID": "qmd/report-3.html",
+    "href": "qmd/report-3.html",
     "title": "\n7  WorldClim data\n",
     "section": "",
-    "text": "7.1 AMBDAta (INPE)\nlibrary(raster)\nlibrary(rvest)\nlibrary(string)\nlibrary(utils)",
+    "text": "7.1 WorldClim 2.1\nlibrary(geodata)\ncountry &lt;- \"brazil\"\nvar &lt;- \"tmax\"\nfile &lt;- tempfile()\n\ngeodata::worldclim_country(country, var, file)",
     "crumbs": [
-      "Exploratory data analyses",
+      "Data analyses",
       "<span class='chapter-number'>7</span>  <span class='chapter-title'>WorldClim data</span>"
     ]
   },
   {
-    "objectID": "qmd/book-report-3.html#ambdata-inpe",
-    "href": "qmd/book-report-3.html#ambdata-inpe",
+    "objectID": "qmd/report-3.html#ambdata-inpe",
+    "href": "qmd/report-3.html#ambdata-inpe",
     "title": "\n7  WorldClim data\n",
-    "section": "",
-    "text": "7.1.1 Web scraping\n\nhtml &lt;- rvest::read_html(\"https://www.dpi.inpe.br/Ambdata/download.php\")\n\ndata_links &lt;- html |&gt;\n  rvest::html_elements(\"a\") |&gt;\n  rvest::html_attr(\"href\") |&gt;\n  stringr::str_subset(\"^http+[s]?:/\") |&gt;\n  stringr::str_subset(\"BR_WC21\")",
+    "section": "\n7.2 AMBDAta (INPE)",
+    "text": "7.2 AMBDAta (INPE)\n\nlibrary(raster)\nlibrary(rvest)\nlibrary(string)\nlibrary(utils)\n\n\n7.2.1 Web scraping\n\nhtml &lt;- rvest::read_html(\"https://www.dpi.inpe.br/Ambdata/download.php\")\n\ndata_links &lt;- html |&gt;\n  rvest::html_elements(\"a\") |&gt;\n  rvest::html_attr(\"href\") |&gt;\n  stringr::str_subset(\"^http+[s]?:/\") |&gt;\n  stringr::str_subset(\"BR_WC21\")",
     "crumbs": [
-      "Exploratory data analyses",
+      "Data analyses",
       "<span class='chapter-number'>7</span>  <span class='chapter-title'>WorldClim data</span>"
     ]
   },
   {
-    "objectID": "qmd/book-report-3.html#dowloading-and-unzipping-the-data",
-    "href": "qmd/book-report-3.html#dowloading-and-unzipping-the-data",
+    "objectID": "qmd/report-3.html#dowloading-and-unzipping-the-data",
+    "href": "qmd/report-3.html#dowloading-and-unzipping-the-data",
     "title": "\n7  WorldClim data\n",
-    "section": "\n7.2 Dowloading and unzipping the data",
-    "text": "7.2 Dowloading and unzipping the data\n\n# See: https://www.dpi.inpe.br/Ambdata/download.php\n\nvar &lt;- \"PP\"\n\ndir_path &lt;- here::here(\".data\", \"ambdata\", \"woldclim\", var, \"zip\")\n\nif (!dir.exists(dir_path)) {\n  dir.create(dir_path, recursive = TRUE, showWarnings = FALSE)\n}\n\ndest_file &lt;- \n  dir_path |&gt;\n  here::here(paste0(\"ambdata_worldclim_\", var, \".zip\"))\n\nurl &lt;- data_links |&gt; \n  stringr::str_subset(paste0(var, \".zip$\")) %&gt;% \n  `[`(1)\n\ncurl::curl_download(url = url, destfile = dest_file)\n\ndir_path &lt;- dir_path |&gt; stringr::str_replace(\"zip$\", \"asc\")\n\nif (!dir.exists(dir_path)) {\n  dir.create(dir_path, recursive = TRUE, showWarnings = FALSE)\n}\n\nfiles &lt;- utils::unzip(zipfile = dest_file, exdir = dir_path)",
+    "section": "\n7.3 Dowloading and unzipping the data",
+    "text": "7.3 Dowloading and unzipping the data\n\n# See: https://www.dpi.inpe.br/Ambdata/download.php\n\nvar &lt;- \"PP\"\n\ndir_path &lt;- here::here(\".data\", \"ambdata\", \"woldclim\", var, \"zip\")\n\nif (!dir.exists(dir_path)) {\n  dir.create(dir_path, recursive = TRUE, showWarnings = FALSE)\n}\n\ndest_file &lt;- \n  dir_path |&gt;\n  here::here(paste0(\"ambdata_worldclim_\", var, \".zip\"))\n\nurl &lt;- data_links |&gt; \n  stringr::str_subset(paste0(var, \".zip$\")) %&gt;% \n  `[`(1)\n\ncurl::curl_download(url = url, destfile = dest_file)\n\ndir_path &lt;- dir_path |&gt; stringr::str_replace(\"zip$\", \"asc\")\n\nif (!dir.exists(dir_path)) {\n  dir.create(dir_path, recursive = TRUE, showWarnings = FALSE)\n}\n\nfiles &lt;- utils::unzip(zipfile = dest_file, exdir = dir_path)",
     "crumbs": [
-      "Exploratory data analyses",
+      "Data analyses",
       "<span class='chapter-number'>7</span>  <span class='chapter-title'>WorldClim data</span>"
     ]
   },
   {
-    "objectID": "qmd/book-report-3.html#reading-data",
-    "href": "qmd/book-report-3.html#reading-data",
+    "objectID": "qmd/report-3.html#reading-data",
+    "href": "qmd/report-3.html#reading-data",
     "title": "\n7  WorldClim data\n",
-    "section": "\n7.3 Reading data",
-    "text": "7.3 Reading data\n\ndata &lt;- files[1] |&gt; raster::raster()\n\n## TBA",
+    "section": "\n7.4 Reading data",
+    "text": "7.4 Reading data\n\ndata &lt;- files[1] |&gt; raster::raster()\n\n## TBA",
     "crumbs": [
-      "Exploratory data analyses",
+      "Data analyses",
       "<span class='chapter-number'>7</span>  <span class='chapter-title'>WorldClim data</span>"
     ]
   },
   {
-    "objectID": "qmd/book-report-4.html",
-    "href": "qmd/book-report-4.html",
+    "objectID": "qmd/report-4.html",
+    "href": "qmd/report-4.html",
     "title": "\n8  Chelsa data\n",
     "section": "",
     "text": "You are reading the work-in-progress of this report. This chapter is currently a dumping ground for ideas, and I don’t recommend reading it.",
     "crumbs": [
-      "Exploratory data analyses",
+      "Data analyses",
       "<span class='chapter-number'>8</span>  <span class='chapter-title'>Chelsa data</span>"
     ]
   },
   {
-    "objectID": "qmd/book-manuscript.html",
-    "href": "qmd/book-manuscript.html",
-    "title": "\n9  Manuscript\n",
+    "objectID": "qmd/report-5.html",
+    "href": "qmd/report-5.html",
+    "title": "\n9  Copernicus data\n",
+    "section": "",
+    "text": "You are reading the work-in-progress of this report. This chapter is currently a dumping ground for ideas, and I don’t recommend reading it.",
+    "crumbs": [
+      "Data analyses",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Copernicus data</span>"
+    ]
+  },
+  {
+    "objectID": "qmd/manuscript.html",
+    "href": "qmd/manuscript.html",
+    "title": "\n10  Manuscript\n",
     "section": "",
     "text": "You are reading the work-in-progress of this report. This chapter is currently a dumping ground for ideas, and I don’t recommend reading it.\n\n\n\n\n\n\n\n\n\nTarget journal\n\n\n\n\n\nScientific Reports (IF 2022: 4.6/JCR | A1/2017-2020).\n\n\n\n\n\n\n\n\n\nThe following study was performed by Arthur Ramalho Magalhães (AM) Daniel Vartanian (DV), and Aline Martins de Carvalho (AC).\nAC contributed to the design and implementation of the study. DV and MP collected the data and performed the statistical analysis. AM wrote the manuscript. All authors discussed the results and revised the final manuscript.\nFuture reference: Magalhães, A. R., Vartanian, D., & Carvalho, A. M. (2024). A Some title. Scientific Reports.",
     "crumbs": [
       "Paper",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Manuscript</span>"
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Manuscript</span>"
     ]
   },
   {
-    "objectID": "qmd/book-supp-materials.html",
-    "href": "qmd/book-supp-materials.html",
-    "title": "\n10  Supplemental materials\n",
+    "objectID": "qmd/supp-materials.html",
+    "href": "qmd/supp-materials.html",
+    "title": "\n11  Supplemental materials\n",
     "section": "",
     "text": "You are reading the work-in-progress of this report. This chapter is currently a dumping ground for ideas, and I don’t recommend reading it.",
     "crumbs": [
       "Paper",
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Supplemental materials</span>"
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Supplemental materials</span>"
     ]
   },
   {
-    "objectID": "qmd/book-discussion.html",
-    "href": "qmd/book-discussion.html",
-    "title": "\n11  Discussion and conclusions\n",
+    "objectID": "qmd/discussion.html",
+    "href": "qmd/discussion.html",
+    "title": "\n12  Discussion and conclusions\n",
     "section": "",
     "text": "You are reading the work-in-progress of this report. This chapter is currently a dumping ground for ideas, and I don’t recommend reading it.",
     "crumbs": [
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Discussion and conclusions</span>"
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Discussion and conclusions</span>"
     ]
   },
   {
-    "objectID": "qmd/book-acknowledgments.html",
-    "href": "qmd/book-acknowledgments.html",
+    "objectID": "qmd/acknowledgments.html",
+    "href": "qmd/acknowledgments.html",
     "title": "Acknowledgments",
     "section": "",
     "text": "You are reading the work-in-progress of this report. This chapter is currently a dumping ground for ideas, and I don’t recommend reading it.",
@@ -338,8 +360,8 @@
     ]
   },
   {
-    "objectID": "qmd/book-references.html",
-    "href": "qmd/book-references.html",
+    "objectID": "qmd/references.html",
+    "href": "qmd/references.html",
     "title": "References",
     "section": "",
     "text": "In accordance with the American Psychological Association (APA) Style, 7th edition.\n\n\nFisher, R. A. (1936). The use of multiple measurements in taxonomic\nproblems. Annals of Eugenics, 7(2), 179–188. https://doi.org/10.1111/j.1469-1809.1936.tb02137.x\n\n\nHenderson, H. V., & Velleman, P. F. (1981). Building multiple\nregression models interactively. Biometrics, 37(2),\n391–411. https://doi.org/10.2307/2530428\n\n\nHoltz, Y. (n.d.). Marginal distribution with ggplot2 and ggExtra. Retrieved November 6, 2023, from https://www.r-graph-gallery.com/277-marginal-histogram-for-ggplot2.html\n\n\nInstituto Brasileiro de Geografia e Estatística. (2020). Pesquisa de\norçamentos familiares: 2017-2018 : avaliação nutricional da\ndisponibilidade domiciliar de alimentos no Brasil (p. 61).\nIBGE. https://biblioteca.ibge.gov.br/index.php/biblioteca-catalogo?view=detalhes&id=2101704\n\n\nKoricheva, J., Gurevitch, J., & Mengersen, K. L. (Eds.). (2013).\nHandbook of meta-analysis in ecology and evolution.\nPrinceton University Press.\n\n\nMitchell, M. (2013). Introduction to complexity [Online\ncourse]. https://www.complexityexplorer.org/courses/\n\n\nPopper, K. R. (1979). Objective knowledge: An evolutionary\napproach. Oxford University Press.\n\n\nUniversidade Federal do Rio de Janeiro. (2022). Estado nutricional\nantropométrico da criança e da mãe: Prevalência de indicadores\nantropométrico de crianças brasileiras menores de 5 anos de idade e suas\nmães biológicas: ENANI 2019 (7; p. 96).\nUFRJ. https://enani.nutricao.ufrj.br/index.php/relatorios\n\n\nWickham, H. (2016). ggplot2: Elegant graphics for data analysis\n(2nd ed.). Springer International Publishing. https://doi.org/10.1007/978-3-319-24277-4\n\n\nWorld Health Organization. (n.d.). Body mass index-for-age (BMI-for-age). World Health\nOrganization. Retrieved June 7, 2024, from https://www.who.int/toolkits/child-growth-standards/standards/body-mass-index-for-age-bmi-for-age\n\n\nWorld Obesity Federation. (2024). World obesity atlas 2024 (p.\n235). World Obesity Federation. https://data.worldobesity.org/publications/?cat=22",
@@ -348,8 +370,8 @@
     ]
   },
   {
-    "objectID": "qmd/book-glossary.html",
-    "href": "qmd/book-glossary.html",
+    "objectID": "qmd/glossary.html",
+    "href": "qmd/glossary.html",
     "title": "Glossary",
     "section": "",
     "text": "Complex system\n\nThere are several definitions. Here are some that I found to be of use:\n\n\n\n“Systems that don’t yield to compact forms of representation or description” (David Krakauer apud Mitchell (2013));\n“A system of many interacting parts where the system is more than just the sum of its parts” (Mark Newman apud Mitchell (2013));\nSystems with many connected agents that interact and exhibit self-organization and emergence behavior, all without the need for a central controller (adapted from Camilo Rodrigues Neto’s);\nDialectics at its finest (Daniel’s working definition).\n\n\n\n\n\nMitchell, M. (2013). Introduction to complexity [Online course]. https://www.complexityexplorer.org/courses/",
@@ -358,8 +380,8 @@
     ]
   },
   {
-    "objectID": "qmd/book-appendice-report-1.html",
-    "href": "qmd/book-appendice-report-1.html",
+    "objectID": "qmd/appendix-report-1.html",
+    "href": "qmd/appendix-report-1.html",
     "title": "Appendix A — Report 1 supplemental material",
     "section": "",
     "text": "You are reading the work-in-progress of this report. This chapter is currently a dumping ground for ideas, and I don’t recommend reading it.",
@@ -369,8 +391,8 @@
     ]
   },
   {
-    "objectID": "qmd/book-appendice-report-2.html",
-    "href": "qmd/book-appendice-report-2.html",
+    "objectID": "qmd/appendix-report-2.html",
+    "href": "qmd/appendix-report-2.html",
     "title": "Appendix B — Report 2 supplemental material",
     "section": "",
     "text": "You are reading the work-in-progress of this report. This chapter is currently a dumping ground for ideas, and I don’t recommend reading it.",
@@ -380,8 +402,8 @@
     ]
   },
   {
-    "objectID": "qmd/book-appendice-report-3.html",
-    "href": "qmd/book-appendice-report-3.html",
+    "objectID": "qmd/appendix-report-3.html",
+    "href": "qmd/appendix-report-3.html",
     "title": "Appendix C — Report 3 supplemental material",
     "section": "",
     "text": "You are reading the work-in-progress of this report. This chapter is currently a dumping ground for ideas, and I don’t recommend reading it.",
@@ -391,8 +413,8 @@
     ]
   },
   {
-    "objectID": "qmd/book-example-of-use.html",
-    "href": "qmd/book-example-of-use.html",
+    "objectID": "qmd/example-of-use.html",
+    "href": "qmd/example-of-use.html",
     "title": "Appendix D — Example of use",
     "section": "",
     "text": "D.1 Secondary section\nSee Table D.1.",
@@ -402,8 +424,8 @@
     ]
   },
   {
-    "objectID": "qmd/book-example-of-use.html#secondary-section",
-    "href": "qmd/book-example-of-use.html#secondary-section",
+    "objectID": "qmd/example-of-use.html#secondary-section",
+    "href": "qmd/example-of-use.html#secondary-section",
     "title": "Appendix D — Example of use",
     "section": "",
     "text": "Table D.1: A sample of the famous (Fisher’s or Anderson’s) iris data set\n\n\ndatasets::iris |&gt;\n  dplyr::as_tibble() |&gt;\n  dplyr::slice_sample(n = 5) |&gt;\n  gt::gt()\n\n\n\n\n\nSepal.Length\nSepal.Width\nPetal.Length\nPetal.Width\nSpecies\n\n\n\n6.7\n3.1\n4.4\n1.4\nversicolor\n\n\n5.5\n3.5\n1.3\n0.2\nsetosa\n\n\n5.1\n3.8\n1.9\n0.4\nsetosa\n\n\n6.7\n3.3\n5.7\n2.5\nvirginica\n\n\n6.7\n2.5\n5.8\n1.8\nvirginica\n\n\n\n\n\n\nSource: Fisher (1936).\n\n\n\n\nD.1.1 Tertiary section\n\n\nSee Figure D.2.\n\n\nFigure D.2: Relationship between waiting time to next eruption (minutes) and eruption time (minutes) at Old Faithful Geyser, Yellowstone National Park, Wyoming, USA\n\n\nggplot2::ggplot(\n  data = datasets::faithful, \n  mapping = ggplot2::aes(x = eruptions, y = waiting)\n  ) +\n  ggplot2::geom_point() +\n  ggplot2::xlim(0.5, 6) +\n  ggplot2::ylim(40, 110) +\n  ggplot2::geom_density_2d_filled(alpha = 0.5) +\n  ggplot2::geom_density_2d(linewidth = 0.25, colour = \"black\") +\n  ggplot2::theme(legend.position = \"none\")\n\n\n\n\n\n\n\nSource: Retrieved from the ggplot2 R package documentation (Wickham, 2016).\n\n\n\n\nD.1.1.1 Quaternary section\n\nBullet point\n\nBullet point\n\nBullet point\n\n\n\n\n\n\nD.1.1.1.1 Quinary section\n\nList\nList\nList",
@@ -413,8 +435,8 @@
     ]
   },
   {
-    "objectID": "qmd/book-example-of-use.html#another-secondary-section",
-    "href": "qmd/book-example-of-use.html#another-secondary-section",
+    "objectID": "qmd/example-of-use.html#another-secondary-section",
+    "href": "qmd/example-of-use.html#another-secondary-section",
     "title": "Appendix D — Example of use",
     "section": "\nD.2 Another secondary section",
     "text": "D.2 Another secondary section\nSee Figure D.3.\n\n\nFigure D.3: Relation between weight (1000lbs) (\\(\\text{wt}\\)) and miles per gallon (\\(\\text{mpg}\\)) for combustion engine vehicles\n\n\np &lt;- ggplot2::ggplot(\n  data = datasets::mtcars, \n  mapping = ggplot2::aes(x=wt, y=mpg, color=cyl, size=cyl)\n  ) +\n  ggplot2::geom_point() +\n  ggplot2::theme(legend.position=\"none\")\n\nggExtra::ggMarginal(\n  p = p, \n  type = \"histogram\", \n  fill = \"slateblue\", \n  xparams = list(bins=10)\n)\n\n\n\n\n\n\n\nSource: Data extracted from the 1974 Motor Trend magazine and published by Henderson & Velleman (1981). Visualization by Holtz (n.d.), available at The R Graph Gallery.\n\n\n\n\n\n\n\nFisher, R. A. (1936). The use of multiple measurements in taxonomic problems. Annals of Eugenics, 7(2), 179–188. https://doi.org/10.1111/j.1469-1809.1936.tb02137.x\n\n\nHenderson, H. V., & Velleman, P. F. (1981). Building multiple regression models interactively. Biometrics, 37(2), 391–411. https://doi.org/10.2307/2530428\n\n\nHoltz, Y. (n.d.). Marginal distribution with ggplot2 and ggExtra. Retrieved November 6, 2023, from https://www.r-graph-gallery.com/277-marginal-histogram-for-ggplot2.html\n\n\nPopper, K. R. (1979). Objective knowledge: An evolutionary approach. Oxford University Press.\n\n\nWickham, H. (2016). ggplot2: Elegant graphics for data analysis (2nd ed.). Springer International Publishing. https://doi.org/10.1007/978-3-319-24277-4",

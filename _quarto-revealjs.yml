@@ -2,11 +2,11 @@ project:
   type: website
   output-dir: _slides
   render: [index.qmd]
-  pre-render: "R/quarto-pre-render-revealjs.R"
-  post-render: "R/quarto-post-render-revealjs.R"
+  pre-render: "R/_pre-render-revealjs.R"
+  post-render: "R/_post-render-revealjs.R"
 
-title: "Exploratory data analysis for Sustentarea's Global Syndemic project"
-author: "Arthur R. Magalhães, Daniel Vartanian and Aline M. de Carvalho"
+title: "Impact of climate change on child nutrition"
+author: "Arthur R. Magalhães, Daniel Vartanian, & Aline M. de Carvalho"
 institute: "Sustentarea"
 date: today
 

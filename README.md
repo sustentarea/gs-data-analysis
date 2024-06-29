@@ -16,14 +16,14 @@ MIT](https://img.shields.io/badge/license-MIT-green)](https://choosealicense.com
 
 ## Overview
 
-This repository contains the research compendium and [Quarto
-book](https://quarto.org/docs/books/) of the exploratory data analysis
-made for [Sustentarea](https://www.fsp.usp.br/sustentarea)’s Global
-Syndemic project. Its aim is to facilitate research work and to improve
-reproducibility.
+This repository contains the [Quarto
+book](https://quarto.org/docs/books/) of the project: *Impact of climate
+change on child nutrition: data analysis and database development*. Its
+aim is to facilitate research work and to improve reproducibility.
 
-Click [here](https://sustentarea.github.io/gs-data-analysis/) to access
-the analysis documents.
+Click [here](https://osf.io/frwmq/) to access the research compendium
+and [here](https://sustentarea.github.io/gs-data-analysis/) to access
+the report.
 
 The assemble of this repository was inspired by Ben Marwick, Carl
 Boettiger & Lincoln Mullen’s article [Packaging Data Analytical Work
@@ -50,7 +50,7 @@ To reproduce the analyses do the following steps:
 
 If you don’t feel comfortable with R, we strongly recommend checking
 Hadley Wickham and Garrett Grolemund’s free and online book [R for Data
-Science](https://r4ds.had.co.nz/) and the Coursera course from John
+Science](https://r4ds.had.co.nz/) and the Coursera course from Johns
 Hopkins University [Data Science: Foundations using
 R](https://www.coursera.org/specializations/data-science-foundations-r).
 
@@ -70,12 +70,12 @@ license](https://creativecommons.org/licenses/by/4.0/).
 
 You can find the compendium citation below.
 
-    Magalhães, A. R., Vartanian, D., & Carvalho, A. M. (2024). Exploratory data analysis for Sustentarea's Global Syndemic project. https://github.com/sustentarea/gs-data-analysis
+    Magalhães, A. R., Vartanian, D., & Carvalho, A. M. (2024). Impact of climate change on child nutrition: data analysis and database development. https://github.com/sustentarea/gs-data-analysis
 
 A BibTeX entry for LaTeX users is
 
     @techreport{magalhaes_2024,
-      title = {Exploratory data analysis for Sustentarea's Global Syndemic project.},
+      title = {Impact of climate change on child nutrition: data analysis and database development},
       author = {{Arthur Ramalho Magalhães}, {Daniel Vartanian} and {Aline Martins de Carvalho}},
       year = {2024},
       institution = "Sustentarea",
@@ -85,5 +85,6 @@ A BibTeX entry for LaTeX users is
 
 ## Acknowledgments
 
-This study was financed by the Conselho Nacional de Desenvolvimento
-Científico e Tecnológico - Brazil ([CNPq](https://www.gov.br/cnpq/)).
+The research reported here was supported by the Conselho Nacional de
+Desenvolvimento Científico e Tecnológico - Brazil
+([CNPq](https://www.gov.br/cnpq/)).

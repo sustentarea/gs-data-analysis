@@ -1,4 +1,0 @@
-<!-- %:::% slides-outline begin %:::% -->
-## Outline {.smaller}
-
-<!-- %:::% slides-outline end %:::% -->

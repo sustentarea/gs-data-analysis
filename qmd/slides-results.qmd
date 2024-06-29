@@ -1,4 +1,0 @@
-<!-- %:::% slides-results begin %:::% -->
-## Results {.smaller}
-
-<!-- %:::% slides-results end %:::% -->

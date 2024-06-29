@@ -2,78 +2,82 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://sustentarea.github.io/gs-data-analysis/index.html</loc>
-    <lastmod>2024-06-07T05:45:32.657Z</lastmod>
+    <lastmod>2024-06-28T23:19:26.333Z</lastmod>
   </url>
   <url>
-    <loc>https://sustentarea.github.io/gs-data-analysis/qmd/book-abstract.html</loc>
-    <lastmod>2024-06-07T04:06:57.910Z</lastmod>
+    <loc>https://sustentarea.github.io/gs-data-analysis/qmd/abstract.html</loc>
+    <lastmod>2024-06-28T22:36:28.832Z</lastmod>
   </url>
   <url>
-    <loc>https://sustentarea.github.io/gs-data-analysis/qmd/book-objectives.html</loc>
-    <lastmod>2024-06-07T04:16:13.244Z</lastmod>
+    <loc>https://sustentarea.github.io/gs-data-analysis/qmd/objectives.html</loc>
+    <lastmod>2024-06-28T22:37:21.685Z</lastmod>
   </url>
   <url>
-    <loc>https://sustentarea.github.io/gs-data-analysis/qmd/book-methods.html</loc>
-    <lastmod>2024-06-07T04:15:58.372Z</lastmod>
+    <loc>https://sustentarea.github.io/gs-data-analysis/qmd/methods.html</loc>
+    <lastmod>2024-06-28T22:37:16.282Z</lastmod>
   </url>
   <url>
-    <loc>https://sustentarea.github.io/gs-data-analysis/qmd/book-activities.html</loc>
-    <lastmod>2024-06-07T04:06:52.082Z</lastmod>
+    <loc>https://sustentarea.github.io/gs-data-analysis/qmd/activities.html</loc>
+    <lastmod>2024-06-28T22:36:39.293Z</lastmod>
   </url>
   <url>
-    <loc>https://sustentarea.github.io/gs-data-analysis/qmd/book-report-1.html</loc>
-    <lastmod>2024-06-07T05:15:52.341Z</lastmod>
+    <loc>https://sustentarea.github.io/gs-data-analysis/qmd/report-1.html</loc>
+    <lastmod>2024-06-28T22:37:31.717Z</lastmod>
   </url>
   <url>
-    <loc>https://sustentarea.github.io/gs-data-analysis/qmd/book-report-2.html</loc>
-    <lastmod>2024-06-07T05:31:45.901Z</lastmod>
+    <loc>https://sustentarea.github.io/gs-data-analysis/qmd/report-2.html</loc>
+    <lastmod>2024-06-28T22:37:36.039Z</lastmod>
   </url>
   <url>
-    <loc>https://sustentarea.github.io/gs-data-analysis/qmd/book-report-3.html</loc>
-    <lastmod>2024-06-07T05:44:24.974Z</lastmod>
+    <loc>https://sustentarea.github.io/gs-data-analysis/qmd/report-3.html</loc>
+    <lastmod>2024-06-28T22:37:41.203Z</lastmod>
   </url>
   <url>
-    <loc>https://sustentarea.github.io/gs-data-analysis/qmd/book-report-4.html</loc>
-    <lastmod>2024-06-07T05:44:15.353Z</lastmod>
+    <loc>https://sustentarea.github.io/gs-data-analysis/qmd/report-4.html</loc>
+    <lastmod>2024-06-28T22:37:48.727Z</lastmod>
   </url>
   <url>
-    <loc>https://sustentarea.github.io/gs-data-analysis/qmd/book-manuscript.html</loc>
-    <lastmod>2024-06-02T05:20:14.823Z</lastmod>
+    <loc>https://sustentarea.github.io/gs-data-analysis/qmd/report-5.html</loc>
+    <lastmod>2024-06-28T22:37:54.577Z</lastmod>
   </url>
   <url>
-    <loc>https://sustentarea.github.io/gs-data-analysis/qmd/book-supp-materials.html</loc>
-    <lastmod>2024-06-02T05:17:38.178Z</lastmod>
+    <loc>https://sustentarea.github.io/gs-data-analysis/qmd/manuscript.html</loc>
+    <lastmod>2024-06-28T22:37:12.345Z</lastmod>
   </url>
   <url>
-    <loc>https://sustentarea.github.io/gs-data-analysis/qmd/book-discussion.html</loc>
-    <lastmod>2024-06-02T05:25:50.314Z</lastmod>
+    <loc>https://sustentarea.github.io/gs-data-analysis/qmd/supp-materials.html</loc>
+    <lastmod>2024-06-28T22:37:58.880Z</lastmod>
   </url>
   <url>
-    <loc>https://sustentarea.github.io/gs-data-analysis/qmd/book-acknowledgments.html</loc>
-    <lastmod>2024-06-02T05:26:13.084Z</lastmod>
+    <loc>https://sustentarea.github.io/gs-data-analysis/qmd/discussion.html</loc>
+    <lastmod>2024-06-28T22:36:58.242Z</lastmod>
   </url>
   <url>
-    <loc>https://sustentarea.github.io/gs-data-analysis/qmd/book-references.html</loc>
-    <lastmod>2024-06-02T04:02:45.860Z</lastmod>
+    <loc>https://sustentarea.github.io/gs-data-analysis/qmd/acknowledgments.html</loc>
+    <lastmod>2024-06-28T22:36:34.774Z</lastmod>
   </url>
   <url>
-    <loc>https://sustentarea.github.io/gs-data-analysis/qmd/book-glossary.html</loc>
-    <lastmod>2024-06-02T05:46:53.132Z</lastmod>
+    <loc>https://sustentarea.github.io/gs-data-analysis/qmd/references.html</loc>
+    <lastmod>2024-06-28T22:37:27.872Z</lastmod>
   </url>
   <url>
-    <loc>https://sustentarea.github.io/gs-data-analysis/qmd/book-appendice-report-1.html</loc>
-    <lastmod>2024-06-02T03:53:20.793Z</lastmod>
+    <loc>https://sustentarea.github.io/gs-data-analysis/qmd/glossary.html</loc>
+    <lastmod>2024-06-28T22:37:06.697Z</lastmod>
   </url>
   <url>
-    <loc>https://sustentarea.github.io/gs-data-analysis/qmd/book-appendice-report-2.html</loc>
-    <lastmod>2024-06-02T03:53:14.820Z</lastmod>
+    <loc>https://sustentarea.github.io/gs-data-analysis/qmd/appendix-report-1.html</loc>
+    <lastmod>2024-06-28T22:36:43.657Z</lastmod>
   </url>
   <url>
-    <loc>https://sustentarea.github.io/gs-data-analysis/qmd/book-appendice-report-3.html</loc>
-    <lastmod>2024-06-07T04:13:06.925Z</lastmod>
+    <loc>https://sustentarea.github.io/gs-data-analysis/qmd/appendix-report-2.html</loc>
+    <lastmod>2024-06-28T22:36:48.562Z</lastmod>
   </url>
   <url>
-    <loc>https://sustentarea.github.io/gs-data-analysis/qmd/book-example-of-use.html</loc>
-    <lastmod>2024-06-07T01:13:23.870Z</lastmod>
+    <loc>https://sustentarea.github.io/gs-data-analysis/qmd/appendix-report-3.html</loc>
+    <lastmod>2024-06-28T22:36:53.379Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sustentarea.github.io/gs-data-analysis/qmd/example-of-use.html</loc>
+    <lastmod>2024-06-28T22:37:02.423Z</lastmod>
   </url>
 </urlset>

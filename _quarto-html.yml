@@ -1,8 +1,8 @@
 project:
   type: book
   output-dir: _web
-  pre-render: "R/quarto-pre-render-html.R"
-  post-render: "R/quarto-post-render-html.R"
+  pre-render: "R/_pre-render-html.R"
+  post-render: "R/_post-render-html.R"
 
 book:
   date: today
@@ -10,29 +10,30 @@ book:
   repo-actions: [edit, issue]
   chapters:
     - index.qmd
-    - qmd/book-abstract.qmd
-    - qmd/book-objectives.qmd
-    - qmd/book-methods.qmd
-    - qmd/book-activities.qmd
-    - part: "Exploratory data analyses"
+    - qmd/abstract.qmd
+    - qmd/objectives.qmd
+    - qmd/methods.qmd
+    - qmd/activities.qmd
+    - part: "Data analyses"
       chapters:
-        - qmd/book-report-1.qmd
-        - qmd/book-report-2.qmd
-        - qmd/book-report-3.qmd
-        - qmd/book-report-4.qmd
+        - qmd/report-1.qmd
+        - qmd/report-2.qmd
+        - qmd/report-3.qmd
+        - qmd/report-4.qmd
+        - qmd/report-5.qmd
     - part: "Paper"
       chapters:
-        - qmd/book-manuscript.qmd
-        - qmd/book-supp-materials.qmd
-    - qmd/book-discussion.qmd
-    - qmd/book-acknowledgments.qmd
-    - qmd/book-references.qmd
-    - qmd/book-glossary.qmd
+        - qmd/manuscript.qmd
+        - qmd/supp-materials.qmd
+    - qmd/discussion.qmd
+    - qmd/acknowledgments.qmd
+    - qmd/references.qmd
+    - qmd/glossary.qmd
   appendices:
-    - qmd/book-appendice-report-1.qmd
-    - qmd/book-appendice-report-2.qmd
-    - qmd/book-appendice-report-3.qmd
-    - qmd/book-example-of-use.qmd
+    - qmd/appendix-report-1.qmd
+    - qmd/appendix-report-2.qmd
+    - qmd/appendix-report-3.qmd
+    - qmd/example-of-use.qmd
 
 format:
   html:

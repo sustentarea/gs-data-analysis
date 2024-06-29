@@ -1,4 +1,4 @@
-peek_count_lines <- function(file = file.choose) {
+peek_count_file_lines <- function(file = file.choose) {
   checkmate::assert_file(file, access = "r")
 
   fpeek::peek_count_lines(file)

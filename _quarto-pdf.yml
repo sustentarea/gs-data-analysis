@@ -3,8 +3,8 @@
 project:
   output-dir: _print
   render: [index.qmd]
-  pre-render: "R/quarto-pre-render-pdf.R"
-  post-render: "R/quarto-post-render-pdf.R"
+  pre-render: "R/_pre-render-pdf.R"
+  post-render: "R/_post-render-pdf.R"
 
 filters:
   - latex-environment

@@ -1,0 +1,18 @@
+<!-- %:::% .common h1 begin %:::% -->
+# Glossary {.unnumbered}
+<!-- %:::% .common h1 end %:::% -->
+
+```{r}
+#| label: setup
+#| include: false
+
+source(here::here("R/_setup.R"))
+```
+
+Complex system
+: \hspace{20cm} There are several definitions. Here are some that I found to be of use:
+
+* "Systems that don't yield to compact forms of representation or description" (David Krakauer apud @mitchell2013);
+* "A system of many interacting parts where the system is more than just the sum of its parts" (Mark Newman apud @mitchell2013);
+* Systems with many connected agents that interact and exhibit self-organization and emergence behavior, all without the need for a central controller (adapted from Camilo Rodrigues Neto's);
+* Dialectics at its finest (Daniel's working definition).

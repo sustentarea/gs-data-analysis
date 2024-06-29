@@ -3,40 +3,76 @@ execute:
   freeze: false
 ---
 
+## {visibility="hidden"}
 <!-- %:::% index begin %:::% -->
-# Welcome {.unnumbered}
+Please make sure that your manuscript follows the guidelines in the 
+Guide for Authors of the relevant journal. It is not necessary to 
+typeset your manuscript in exactly the same way as an article, 
+unless you are submitting to a camera-ready copy (CRC) journal.
+
+For detailed instructions regarding the elsevier article class, see   <https://www.elsevier.com/authors/policies-and-guidelines/latex-instructions>
+
+# Bibliography styles
+
+Here are two sample references:  @feynman1963 @dirac1953.
+
+By default, natbib will be used with the `authoryear` style, set in `classoption` variable in YAML. 
+You can sets extra options with `natbiboptions` variable in YAML header. Example 
+
+```
+natbiboptions: longnamesfirst,angle,semicolon
+```
+
+There are various more specific bibliography styles available at
+<https://support.stmdocs.in/wiki/index.php?title=Model-wise_bibliographic_style_files>. 
+To use one of these, add it in the header using, for example, `biblio-style: model1-num-names`.
+
+## Using CSL 
+
+If `cite-method` is set to `citeproc` in `elsevier_article()`, then pandoc is used for citations instead of `natbib`. In this case, the `csl` option is used to format the references. By default, this template will provide an appropriate style, but alternative `csl` files are available from <https://www.zotero.org/styles?q=elsevier>. These can be downloaded
+and stored locally, or the url can be used as in the example header.
+
+# Equations
+
+Here is an equation:
+$$ 
+  f_{X}(x) = \left(\frac{\alpha}{\beta}\right)
+  \left(\frac{x}{\beta}\right)^{\alpha-1}
+  e^{-\left(\frac{x}{\beta}\right)^{\alpha}}; 
+  \alpha,\beta,x > 0 .
+$$
+
+Inline equations work as well: $\sum_{i = 2}^\infty\{\alpha_i^\beta\}$
+
+# Figures and tables
+
+@fig-meaningless is generated using an R chunk.
 
 ```{r}
-#| label: setup
-#| include: false
-
-source(here::here("R/quarto-setup.R"))
+#| label: fig-meaningless
+#| fig-cap: A meaningless scatterplot
+#| fig-width: 5
+#| fig-height: 5
+#| fig-align: center
+#| out-width: 50%
+#| echo: false
+plot(runif(25), runif(25))
 ```
 
-::: {.callout-warning}
-You are reading the work-in-progress of this book.
+# Tables coming from R
+
+Tables can also be generated using R chunks, as shown in @tbl-simple example.
+
+```{r}
+#| label: tbl-simple
+#| tbl-cap: Caption centered above table
+#| echo: true
+knitr::kable(head(mtcars)[,1:4])
+```
+
+# References {-}
+
+::: {#refs}
 :::
 
-This book is related to the exploratory data analysis made for [Sustentarea](https://www.fsp.usp.br/sustentarea)'s Global Syndemic Project.
-
-All analyses in this document are reproducible and were conducted using the [R programming language](https://www.r-project.org/) along with the [Quarto](https://quarto.org/) publishing system. Click [here](https://github.com/sustentarea/gs-data-analysis/issues/) or on the GitHub icon in the menu to access the research compendium for the thesis.
-
-## Citation
-
-For attribution, please cite this work as:
-
-Magalhães, A. R., Vartanian, D., & Carvalho, A. M. (`r env_vars[["year"]]`). _`r env_vars[["title"]]`_ . `r env_vars[["url"]]`
-
-BibTeX citation:
-
-```
-@techreport{`r tolower(env_vars[["author-surname"]])``r env_vars[["year"]]`,
-  title = {`r env_vars[["title"]]`},
-  author = {`r env_vars[["author"]]`},
-  year = {`r env_vars[["year"]]`},
-  institution = {`r env_vars[["institute"]]`},
-  langid = {`r env_vars[["language"]]`},
-  url = {`r env_vars[["url"]]`}
-}
-```
 <!-- %:::% index end %:::% -->

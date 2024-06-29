@@ -19,7 +19,7 @@
 # renv::activate()
 # renv::deactivate()
 # renv::status()
-# renv::dependencies("R/quarto-setup.R")
+# renv::dependencies("R/_setup.R")
 # renv::install()
 # renv::update()
 # renv::restore()
@@ -44,13 +44,13 @@
 # quarto render
 #
 # ## html
-# source(here::here("R", "quarto-pre-render-html.R"))
+# source(here::here("R", "_pre-render-html.R"))
 # quarto render --profile html
 #
 # ## revealjs
-# source(here::here("R", "quarto-pre-render-revealjs.R"))
+# source(here::here("R", "_pre-render-revealjs.R"))
 # quarto render --profile revealjs
 #
 # ## pdf
-# source(here::here("R", "quarto-pre-render-pdf.R"))
+# source(here::here("R", "_pre-render-pdf.R"))
 # quarto render --profile pdf

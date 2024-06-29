@@ -1,0 +1,18 @@
+# Chelsa data
+
+```{r}
+#| label: setup
+#| include: false
+
+source(here::here("R/_setup.R"))
+```
+
+```{r}
+#| echo: false
+#| output: asis
+
+rutils:::quarto_status(
+  type = "drafting",
+  of_what = "of this report"
+  )
+```

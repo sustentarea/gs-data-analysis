@@ -1,15 +1,12 @@
 <!-- %:::% index begin %:::% -->
-<!-- %:::% slides-preface begin %:::% -->
-## {visibility="hidden"}
+## Hello, there 👋 {.smaller}
 
 ```{r}
 #| label: setup
 #| include: false
 
-source(here::here("R/quarto-setup.R"))
+source(here::here("R/_setup.R"))
 ```
-
-## Hello, there 👋 {.smaller}
 
 This presentation will provide an overview of the  objectives, main concepts, methods, and results. Here is our itinerary.
 
@@ -34,36 +31,21 @@ This presentation will provide an overview of the  objectives, main concepts, me
 (@) Final remarks
 :::
 ::::
-<!-- %:::% slides-preface end %:::% -->
-<!-- %:::% slides-objectives begin %:::% -->
+
 ## Object and objectives {.smaller}
 
-<!-- %:::% slides-objectives end %:::% -->
-<!-- %:::% slides-introduction begin %:::% -->
 ## Introduction {.smaller}
 
-<!-- %:::% slides-introduction end %:::% -->
-<!-- %:::% slides-outline begin %:::% -->
 ## Outline {.smaller}
 
-<!-- %:::% slides-outline end %:::% -->
-<!-- %:::% slides-methods begin %:::% -->
 ## Methods {.smaller}
 
-<!-- %:::% slides-methods end %:::% -->
-<!-- %:::% slides-results begin %:::% -->
 ## Results {.smaller}
 
-<!-- %:::% slides-results end %:::% -->
-<!-- %:::% slides-discussion begin %:::% -->
 ## Discussion {.smaller}
 
-<!-- %:::% slides-discussion end %:::% -->
-<!-- %:::% slides-final-remarks begin %:::% -->
 ## Final remarks {.smaller}
 
-<!-- %:::% slides-final-remarks end %:::% -->
-<!-- %:::% slides-references begin %:::% -->
 ## References {.smaller}
 
 ::: {style="font-size: 0.75em;"}
@@ -72,5 +54,4 @@ In accordance with the [American Psychological Association (APA) Style](https://
 
 ::: {#refs style="font-size: 0.75em;"}
 :::
-<!-- %:::% slides-references end %:::% -->
 <!-- %:::% index end %:::% -->

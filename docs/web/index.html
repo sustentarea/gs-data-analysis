@@ -5,8 +5,8 @@
 <meta name="generator" content="quarto-1.5.40">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 <meta name="author" content="Arthur Ramalho Magalhães, Daniel Vartanian and Aline Martins de Carvalho">
-<meta name="dcterms.date" content="2024-06-07">
-<title>Exploratory data analysis for Sustentarea’s Global Syndemic project</title>
+<meta name="dcterms.date" content="2024-06-28">
+<title>Impact of climate change on child nutrition: data analysis and database development</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -28,7 +28,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./qmd/book-abstract.html" rel="next">
+<link href="./qmd/abstract.html" rel="next">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -64,9 +64,9 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<meta property="og:title" content="Exploratory data analysis for Sustentarea’s Global Syndemic project">
+<meta property="og:title" content="Impact of climate change on child nutrition: data analysis and database development">
 <meta property="og:description" content="">
-<meta property="og:site_name" content="Exploratory data analysis for Sustentarea's Global Syndemic project
+<meta property="og:site_name" content="Impact of climate change on child nutrition: data analysis and database development
 ">
 </head>
 <body class="nav-sidebar floating">
@@ -87,7 +87,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto"><div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
-      <a href="./">Exploratory data analysis for Sustentarea’s Global Syndemic project</a> 
+      <a href="./">Impact of climate change on child nutrition: data analysis and database development</a> 
         <div class="sidebar-tools-main">
     <a href="https://github.com/sustentarea/gs-data-analysis" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
 </div>
@@ -108,32 +108,32 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./qmd/book-abstract.html" class="sidebar-item-text sidebar-link">
+  <a href="./qmd/abstract.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Abstract</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./qmd/book-objectives.html" class="sidebar-item-text sidebar-link">
+  <a href="./qmd/objectives.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Objectives</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./qmd/book-methods.html" class="sidebar-item-text sidebar-link">
+  <a href="./qmd/methods.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Methods</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./qmd/book-activities.html" class="sidebar-item-text sidebar-link">
+  <a href="./qmd/activities.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Scheduled activities</span></span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
- <span class="menu-text">Exploratory data analyses</span></a>
+ <span class="menu-text">Data analyses</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -141,26 +141,32 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">
 <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./qmd/book-report-1.html" class="sidebar-item-text sidebar-link">
+  <a href="./qmd/report-1.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">SISVAN data</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./qmd/book-report-2.html" class="sidebar-item-text sidebar-link">
+  <a href="./qmd/report-2.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">INMET data</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./qmd/book-report-3.html" class="sidebar-item-text sidebar-link">
+  <a href="./qmd/report-3.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">WorldClim data</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./qmd/book-report-4.html" class="sidebar-item-text sidebar-link">
+  <a href="./qmd/report-4.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Chelsa data</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./qmd/report-5.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Copernicus data</span></span></a>
   </div>
 </li>
       </ul>
@@ -176,39 +182,39 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">
 <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./qmd/book-manuscript.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Manuscript</span></span></a>
+  <a href="./qmd/manuscript.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Manuscript</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./qmd/book-supp-materials.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Supplemental materials</span></span></a>
+  <a href="./qmd/supp-materials.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Supplemental materials</span></span></a>
   </div>
 </li>
       </ul>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./qmd/book-discussion.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Discussion and conclusions</span></span></a>
+  <a href="./qmd/discussion.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Discussion and conclusions</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./qmd/book-acknowledgments.html" class="sidebar-item-text sidebar-link">
+  <a href="./qmd/acknowledgments.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Acknowledgments</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./qmd/book-references.html" class="sidebar-item-text sidebar-link">
+  <a href="./qmd/references.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">References</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./qmd/book-glossary.html" class="sidebar-item-text sidebar-link">
+  <a href="./qmd/glossary.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Glossary</span></a>
   </div>
 </li>
@@ -223,25 +229,25 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">
 <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./qmd/book-appendice-report-1.html" class="sidebar-item-text sidebar-link">
+  <a href="./qmd/appendix-report-1.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">A</span>&nbsp; <span class="chapter-title">Report 1 supplemental material</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./qmd/book-appendice-report-2.html" class="sidebar-item-text sidebar-link">
+  <a href="./qmd/appendix-report-2.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">B</span>&nbsp; <span class="chapter-title">Report 2 supplemental material</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./qmd/book-appendice-report-3.html" class="sidebar-item-text sidebar-link">
+  <a href="./qmd/appendix-report-3.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">C</span>&nbsp; <span class="chapter-title">Report 3 supplemental material</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./qmd/book-example-of-use.html" class="sidebar-item-text sidebar-link">
+  <a href="./qmd/example-of-use.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">D</span>&nbsp; <span class="chapter-title">Example of use</span></span></a>
   </div>
 </li>
@@ -266,7 +272,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- main -->
 <main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block default"><div class="quarto-title">
 <h1 class="title"></h1>
-<p>Exploratory data analysis for Sustentarea’s Global Syndemic project</p>
+<p>Impact of climate change on child nutrition: data analysis and database development</p>
 </div>
 
 
@@ -283,7 +289,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">2024-06-07</p>
+      <p class="date">2024-06-28</p>
     </div>
   </div>
   
@@ -307,10 +313,10 @@ ul.task-list li input[type="checkbox"] {
 <p>All analyses in this document are reproducible and were conducted using the <a href="https://www.r-project.org/">R programming language</a> along with the <a href="https://quarto.org/">Quarto</a> publishing system. Click <a href="https://github.com/sustentarea/gs-data-analysis/issues/">here</a> or on the GitHub icon in the menu to access the research compendium for the thesis.</p>
 <section id="citation" class="level2"><h2 class="anchored" data-anchor-id="citation">Citation</h2>
 <p>For attribution, please cite this work as:</p>
-<p>Magalhães, A. R., Vartanian, D., &amp; Carvalho, A. M. (2024). <em>Exploratory data analysis for Sustentarea’s Global Syndemic project </em> . https://sustentarea.github.io/gs-data-analysis/</p>
+<p>Magalhães, A. R., Vartanian, D., &amp; Carvalho, A. M. (2024). <em>Impact of climate change on child nutrition: data analysis and database development </em> . https://sustentarea.github.io/gs-data-analysis/</p>
 <p>BibTeX citation:</p>
 <pre><code>@techreport{carvalho2024,
-  title = {Exploratory data analysis for Sustentarea's Global Syndemic project
+  title = {Impact of climate change on child nutrition: data analysis and database development
 },
   author = {Arthur R. Magalhães, Daniel Vartanian and Aline M. de Carvalho},
   year = {2024},
@@ -743,7 +749,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script><nav class="page-navigation"><div class="nav-page nav-page-previous">
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./qmd/book-abstract.html" class="pagination-link" aria-label="Abstract">
+      <a href="./qmd/abstract.html" class="pagination-link" aria-label="Abstract">
         <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Abstract</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
